@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+  GUIDE TEMPLATE — copy this file to start a new guide.
+  ----------------------------------------------------------------
+  Positioning (from the project guardrails):
+  - Organized around USER INTENT / LIFE STATE, not technical categories.
+  - Address the underlying need/emotion, not just the keyword.
+  - Calm, clear, human. Mobile-first. No filler. No sales.
+
+  Every major guide follows this flow (structure may vary, philosophy stays):
+    1. What you're probably trying to figure out   (.wondering)
+    2. Short answer                                 (.answer)
+    3. What actually matters                        (.block)
+    4. Your options                                 (.options / .option)
+    5. What you probably don't need                 (.note.dont)  <- brand characteristic
+    6. What makes sense for different situations     (.block > ul)
+    7. A simple way to decide                        (.decide)
+    8. Related questions                             (.related)
+    9. Ask Us                                        (.askus)
+
+  Where to put it:  guides/<your-slug>.html
+  If you save it in guides/, set  window.SITE_BASE = "../";  below.
+  If you save it at the site root, set  window.SITE_BASE = "";
+  Link it from the matching intent page's guide list.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>TITLE · Live Your Apple Life</title>
+  <meta name="description" content="ONE calm sentence describing the answer." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta name="robots" content="noindex" />
+  <meta name="theme-color" content="#0a84ff" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="index.html">Live Your Apple Life<small>calm help for your Apple devices</small></a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Breadcrumb: Home / Intent / Guide -->
+    <p class="crumb"><a href="index.html">Home</a> / <a href="intents/SLUG.html">Intent</a> / Guide title</p>
+    <h1 class="page-title">Guide title</h1>
+    <p class="page-tagline">One line on the underlying need this meets.</p>
+
+    <!-- 1. What you're probably trying to figure out -->
+    <div class="wondering">
+      <strong>You're probably here because</strong> [name the quiet worry or intention behind the keyword].
+    </div>
+
+    <!-- 2. Short answer -->
+    <div class="answer">
+      <strong>Direct answer in one or two sentences.</strong>
+      A little context so the reader knows whether it applies to them.
+    </div>
+
+    <!-- 3. What actually matters -->
+    <section class="block">
+      <h2>What actually matters</h2>
+      <p>Plain explanation. No jargon. Short paragraphs.</p>
+    </section>
+
+    <!-- 4. Your options -->
+    <section class="block">
+      <h2>Your options</h2>
+      <div class="options">
+        <div class="option">
+          <h3>Option A</h3>
+          <p>What it is.</p>
+          <p class="pros">+ Why it helps.</p>
+          <p class="cons">– The trade-off.</p>
+        </div>
+        <div class="option">
+          <h3>Option B</h3>
+          <p>What it is.</p>
+          <p class="pros">+ Why it helps.</p>
+          <p class="cons">– The trade-off.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. What you probably don't need -->
+    <div class="note dont">
+      <h3>You probably don't need</h3>
+      <p>Honest note on what to skip — reduces unnecessary decisions and buying.</p>
+    </div>
+
+    <!-- 6. What makes sense for different situations -->
+    <section class="block">
+      <h2>What makes sense for different situations</h2>
+      <ul>
+        <li><strong>Situation A:</strong> the calm recommendation.</li>
+        <li><strong>Situation B:</strong> the calm recommendation.</li>
+      </ul>
+    </section>
+
+    <!-- 7. A simple way to decide -->
+    <div class="decide">
+      <h3>A simple way to decide</h3>
+      <p>One plain rule of thumb the reader can act on right now.</p>
+    </div>
+
+    <!-- 8. Related questions -->
+    <section class="block">
+      <h2>Related questions</h2>
+      <ul class="related">
+        <li>A question a real person would also ask.</li>
+        <li>Another related question.</li>
+      </ul>
+    </section>
+
+    <!-- 9. Ask Us -->
+    <div class="askus">
+      <a href="ask-us.html">Ask Us a question</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <nav class="footer-links" id="site-footer-links" aria-label="All areas"></nav>
+      <p class="footer-note">Live Your Apple Life is an independent guide. It is not affiliated with Apple Inc.</p>
+    </div>
+  </footer>
+
+  <script>window.SITE_BASE = "";</script>
+  <script src="assets/data/intents.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
