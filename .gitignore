@@ -1,0 +1,4 @@
+# WorkBuddy runtime / memory — not part of the site
+.workbuddy/
+.DS_Store
+*.log
