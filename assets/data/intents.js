@@ -1,1 +1,88 @@
-LyoKICogTGl2ZSBZb3VyIEFwcGxlIExpZmUg4oCUIEFQUFJPVkVEIDggTGlmZSBJbnRlbnRzIChzaW5nbGUgc291cmNlIG9mIHRydXRoKQogKgogKiBUaGVzZSByZXByZXNlbnQgVVNFUiBJTlRFTlQgLyBMSUZFIFNUQVRFLCBub3QgdGVjaG5pY2FsIGNhdGVnb3JpZXMuCiAqIEEgdmlzaXRvciBzaG91bGQgZmVlbCAidGhpcyB1bmRlcnN0YW5kcyB3aGF0IEknbSB0cnlpbmcgdG8gbWFrZSBiZXR0ZXIiCiAqIOKAlCBub3QgImFub3RoZXIgd2Vic2l0ZSBmdWxsIG9mIGlQaG9uZSB0aXBzLiIKICoKICogVGhpcyBpcyB0aGUgT05MWSBwbGFjZSB0aGUgOCBMaWZlIEludGVudHMgYXJlIGRlZmluZWQuCiAqIC0gaW5kZXguaHRtbCByZW5kZXJzIHRoZSBob21lIGdyaWQgZnJvbSB0aGlzIGxpc3QuCiAqIC0gc2l0ZS5qcyByZW5kZXJzIHRoZSBmb290ZXIgZnJvbSB0aGlzIGxpc3QuCiAqIC0gRWFjaCBpbnRlbnQgcGFnZSBsaXZlcyBhdCBpbnRlbnRzLzxzbHVnPi5odG1sLgogKgogKiBUbyBjaGFuZ2UgdGhlIHN0cnVjdHVyZSBsYXRlciwgZWRpdCBoZXJlIGFuZCB0aGUgcGFnZXMg4oCUIGRvIG5vdCBzY2F0dGVyCiAqIHRoZSBJQSBhY3Jvc3MgbWFueSBmaWxlcy4KICovCndpbmRvdy5MSUZFX0lOVEVOVFMgPSBbCiAgewogICAgc2x1ZzogIm1ha2UtbXktaXBob25lLWxvb2stYmV0dGVyIiwKICAgIHRpdGxlOiAiSSB3YW50IG15IGlQaG9uZSB0byBsb29rIGJldHRlciIsCiAgICB0YWdsaW5lOiAiQSBjbGVhbiBIb21lIFNjcmVlbiwgYSB3YWxscGFwZXIgeW91IGxvdmUsIGFuZCBhIGRldmljZSB0aGF0IGZlZWxzIGNhbG0gdG8gbG9vayBhdC4iLAogICAgaW50cm86CiAgICAgICJZb3VyIGlQaG9uZSBpcyBzb21ldGhpbmcgeW91IHNlZSBkb3plbnMgb2YgdGltZXMgYSBkYXkuIE1ha2luZyBpdCBsb29rIGJldHRlciBpc24ndCB2YW5pdHkg4oCUICIgKwogICAgICAiaXQncyBhYm91dCBhIEhvbWUgU2NyZWVuIHRoYXQgZmVlbHMgY2FsbSBpbnN0ZWFkIG9mIGNsdXR0ZXJlZCwgYW5kIGEgZGV2aWNlIHRoYXQgZmVlbHMgbGlrZSBpdCAiICsKICAgICAgImJlbG9uZ3MgdG8geW91LiBXZSdsbCBoZWxwIHlvdSBnZXQgdGhlcmUgd2l0aG91dCBidXlpbmcgYW55dGhpbmcuIgogIH0sCiAgewogICAgc2x1ZzogInByb3RlY3QtbXktaXBob25lIiwKICAgIHRpdGxlOiAiSSB3YW50IHRvIHByb3RlY3QgbXkgbmV3IGlQaG9uZSIsCiAgICB0YWdsaW5lOiAiWW91IGp1c3Qgc3BlbnQgcmVhbCBtb25leS4gSGVyZSdzIGhvdyB0byBrZWVwIGl0IHNhZmUg4oCUIHdpdGhvdXQgb3ZlcmJ1eWluZy4iLAogICAgaW50cm86CiAgICAgICJBIG5ldyBpUGhvbmUgZmVlbHMgcHJlY2lvdXMgYmVjYXVzZSBpdCBpcy4gVGhlIGdvb2QgbmV3czogeW91IGRvbid0IG5lZWQgZXZlcnkgYWNjZXNzb3J5IG9uIHRoZSAiICsKICAgICAgInNoZWxmLiBXZSdsbCBoZWxwIHlvdSBkZWNpZGUgd2hhdCBhY3R1YWxseSBwcm90ZWN0cyB5b3VyIHBob25lLCBhbmQgd2hhdCdzIGp1c3Qgbm9pc2Ug4oCUIGJhbGFuY2luZyAiICsKICAgICAgInNhZmV0eSwgc2l6ZSwgbG9va3MsIGFuZCBob3cgaXQgZmVlbHMgaW4geW91ciBoYW5kLiAoR3VpZGFuY2Ugb25seSDigJQgdGhpcyBpcyBub3QgYSBzaG9wLikiCiAgfSwKICB7CiAgICBzbHVnOiAibWFrZS1pdC1taW5lIiwKICAgIHRpdGxlOiAiSSB3YW50IHRvIG1ha2UgbXkgaVBob25lIG1vcmUgcGVyc29uYWwiLAogICAgdGFnbGluZTogIlNtYWxsIHRvdWNoZXMgdGhhdCBtYWtlIGl0IGZlZWwgbGlrZSB5b3Vycywgbm90IGEgZGVmYXVsdCBwaG9uZS4iLAogICAgaW50cm86CiAgICAgICJQZXJzb25hbGl6YXRpb24gaXNuJ3Qgb25seSBhYm91dCBzZXR0aW5ncy4gSXQncyB0aGUgZmVlbGluZyB0aGF0IHRoaXMgZGV2aWNlIHJlZmxlY3RzIHlvdSDigJQgeW91ciAiICsKICAgICAgInN0eWxlLCB5b3VyIHJoeXRobSwgeW91ciB0YXN0ZS4gV2UnbGwgc2hvdyBsb3ctZWZmb3J0IHdheXMgdG8gZ2l2ZSB5b3VyIGlQaG9uZSBwZXJzb25hbGl0eSwgc28gaXQgIiArCiAgICAgICJmZWVscyBsZXNzIGxpa2UgYSB0b29sIGFuZCBtb3JlIGxpa2UgeW91cnMuIgogIH0sCiAgewogICAgc2x1ZzogIm5ldy1pcGhvbmUiLAogICAgdGl0bGU6ICJJIGp1c3QgZ290IGEgbmV3IGlQaG9uZSIsCiAgICB0YWdsaW5lOiAiVGhlIGZldyB0aGluZ3MgdGhhdCBtYXR0ZXIgb24gZGF5IG9uZSDigJQgYW5kIHdoYXQgY2FuIGhhcHBpbHkgd2FpdC4iLAogICAgaW50cm86CiAgICAgICJBIG5ldyBpUGhvbmUgaXMgZXhjaXRpbmcsIGFuZCBlYXN5IHRvIG92ZXJ0aGluay4gWW91IGRvbid0IG5lZWQgdG8gY2hhbmdlIGV2ZXJ5dGhpbmcgb24gZGF5IG9uZS4gIiArCiAgICAgICJXZSdsbCB3YWxrIHRocm91Z2ggZmlyc3Qgc2V0dXAsIG1vdmluZyBmcm9tIGFuIG9sZCBpUGhvbmUgb3IgQW5kcm9pZCwgYW5kIHRoZSBzbWFsbCBjaG9pY2VzIHRoYXQgIiArCiAgICAgICJtYXR0ZXIg4oCUIHdoaWxlIGhlbHBpbmcgeW91IHNraXAgdGhlIHB1cmNoYXNlcyBhbmQgc2V0dGluZ3MgeW91IGRvbid0IG5lZWQgeWV0LiIKICB9LAogIHsKICAgIHNsdWc6ICJwcm90ZWN0LW15LWRhdGEiLAogICAgdGl0bGU6ICJJJ20gd29ycmllZCBhYm91dCBsb3NpbmcgbXkgZGF0YSIsCiAgICB0YWdsaW5lOiAiUGhvdG9zLCBtZXNzYWdlcywgYWNjb3VudHMg4oCUIGtlZXAgdGhlbSBzYWZlIHNvIHlvdSBjYW4gc3RvcCB3b3JyeWluZy4iLAogICAgaW50cm86CiAgICAgICJUaGUgZmVhciBpcyByZWFsOiBvbmUgZHJvcHBlZCBwaG9uZSwgYW5kIHllYXJzIG9mIHBob3RvcyBjb3VsZCBiZSBnb25lLiBUaGUgcmVhc3N1cmluZyBwYXJ0IGlzIHRoYXQgIiArCiAgICAgICJhIGxpdHRsZSBzZXR1cCByZW1vdmVzIGFsbW9zdCBhbGwgb2YgdGhhdCByaXNrLiBXZSdsbCBoZWxwIHlvdSBiYWNrIHVwIHRoZSB0aGluZ3MgdGhhdCBtYXR0ZXIsIG1vdmUgIiArCiAgICAgICJ0byBhIG5ldyBkZXZpY2Ugd2l0aG91dCBsb3NpbmcgYW55dGhpbmcsIGFuZCBmZWVsIGNhbG0gYWJvdXQgeW91ciBkYXRhIGFnYWluLiIKICB9LAogIHsKICAgIHNsdWc6ICJvbGQtaXBob25lIiwKICAgIHRpdGxlOiAiSSB3YW50IHRvIGZpZ3VyZSBvdXQgd2hhdCB0byBkbyB3aXRoIG15IG9sZCBpUGhvbmUiLAogICAgdGFnbGluZTogIlNlbGwgaXQsIHRyYWRlIGl0IGluLCBrZWVwIGl0LCBvciBnaXZlIGl0IGF3YXkg4oCUIGRlY2lkZSB3aXRoIGNvbmZpZGVuY2UuIiwKICAgIGludHJvOgogICAgICAiQW4gb2xkIGlQaG9uZSBzdGlsbCBoYXMgdmFsdWUsIGVpdGhlciB0byB5b3Ugb3Igc29tZW9uZSBlbHNlLiBXaGV0aGVyIHlvdSB3YW50IGNhc2gsIGEgYmFja3VwIHBob25lLCAiICsKICAgICAgIm9yIHRvIHBhc3MgaXQgb24sIHdlJ2xsIGhlbHAgeW91IGNob29zZSBhbmQgdGhlbiBlcmFzZSBpdCBzYWZlbHkgc28geW91ciBkYXRhIG5ldmVyIGxlYXZlcyB3aXRoIGl0LiIKICB9LAogIHsKICAgIHNsdWc6ICJtYWtlLW15LWlwaG9uZS13b3JrLWJldHRlciIsCiAgICB0aXRsZTogIkkgd2FudCBteSBpUGhvbmUgdG8gd29yayBiZXR0ZXIgZm9yIG1lIiwKICAgIHRhZ2xpbmU6ICJMZXNzIGNsdXR0ZXIsIGZld2VyIGRpc3RyYWN0aW9ucywgYW5kIGEgcGhvbmUgdGhhdCBmaXRzIHlvdXIgZGF5LiIsCiAgICBpbnRybzoKICAgICAgIlNvbWV0aW1lcyB0aGUgcGhvbmUgdGhhdCdzIHN1cHBvc2VkIHRvIGhlbHAgZW5kcyB1cCBhZGRpbmcgbm9pc2Ug4oCUIG5vdGlmaWNhdGlvbnMsIGJhdHRlcnkgYW54aWV0eSwgYSAiICsKICAgICAgIkhvbWUgU2NyZWVuIHRoYXQgZmlnaHRzIHlvdS4gV2UnbGwgaGVscCB5b3UgcXVpZXQgdGhlIGNsdXR0ZXIgYW5kIHR1bmUgYSBmZXcgc2V0dGluZ3Mgc28gZGFpbHkgdXNlICIgKwogICAgICAiZmVlbHMgbW9yZSBjb21mb3J0YWJsZSBhbmQgbGVzcyBzdHJlc3NmdWwuIgogIH0sCiAgewogICAgc2x1ZzogImFwcGxlLWVjb3N5c3RlbSIsCiAgICB0aXRsZTogIkkgd2FudCBteSBBcHBsZSBkZXZpY2VzIHRvIHdvcmsgYmV0dGVyIHRvZ2V0aGVyIiwKICAgIHRhZ2xpbmU6ICJXaGVuIGlQaG9uZSwgTWFjLCBpUGFkLCBhbmQgV2F0Y2ggYWN0dWFsbHkgaGVscCDigJQgbm90IGp1c3QgYmVjYXVzZSB0aGV5IGNhbi4iLAogICAgaW50cm86CiAgICAgICJJZiB5b3UgaGF2ZSBtb3JlIHRoYW4gb25lIEFwcGxlIGRldmljZSwgdGhleSBjYW4gdGFrZSBzbWFsbCBidXJkZW5zIG9mZiB5b3VyIGRheTogc3RhcnQgaGVyZSwgZmluaXNoICIgKwogICAgICAidGhlcmUsIGZpbmQgYW55dGhpbmcgYW55d2hlcmUuIFdlJ2xsIGZvY3VzIG9uIHRoZSBIYW5kb2ZmIGFuZCBDb250aW51aXR5IGZlYXR1cmVzIHRoYXQgZ2VudWluZWx5IG1ha2UgIiArCiAgICAgICJsaWZlIGVhc2llciDigJQgYW5kIGJlIGhvbmVzdCBhYm91dCB3aGVuIHRoZSBlY29zeXN0ZW0gaXNuJ3Qgd29ydGggY2hhc2luZy4iCiAgfQpdOwo=
+/*
+ * Live Your Apple Life — APPROVED 8 Life Intents (single source of truth)
+ *
+ * These represent USER INTENT / LIFE STATE, not technical categories.
+ * A visitor should feel "this understands what I'm trying to make better"
+ * — not "another website full of iPhone tips."
+ *
+ * This is the ONLY place the 8 Life Intents are defined.
+ * - index.html renders the home grid from this list.
+ * - site.js renders the footer from this list.
+ * - Each intent page lives at intents/<slug>.html.
+ *
+ * To change the structure later, edit here and the pages — do not scatter
+ * the IA across many files.
+ */
+window.LIFE_INTENTS = [
+  {
+    slug: "make-my-iphone-look-better",
+    title: "I want my iPhone to look better",
+    tagline: "A clean Home Screen, a wallpaper you love, and a device that feels calm to look at.",
+    intro:
+      "Your iPhone is something you see dozens of times a day. Making it look better isn't vanity — " +
+      "it's about a Home Screen that feels calm instead of cluttered, and a device that feels like it " +
+      "belongs to you. We'll help you get there without buying anything."
+  },
+  {
+    slug: "protect-my-iphone",
+    title: "I want to protect my new iPhone",
+    tagline: "You just spent real money. Here's how to keep it safe — without overbuying.",
+    intro:
+      "A new iPhone feels precious because it is. The good news: you don't need every accessory on the " +
+      "shelf. We'll help you decide what actually protects your phone, and what's just noise — balancing " +
+      "safety, size, looks, and how it feels in your hand. (Guidance only — this is not a shop.)"
+  },
+  {
+    slug: "make-it-mine",
+    title: "I want to make my iPhone more personal",
+    tagline: "Small touches that make it feel like yours, not a default phone.",
+    intro:
+      "Personalization isn't only about settings. It's the feeling that this device reflects you — your " +
+      "style, your rhythm, your taste. We'll show low-effort ways to give your iPhone personality, so it " +
+      "feels less like a tool and more like yours."
+  },
+  {
+    slug: "new-iphone",
+    title: "I just got a new iPhone",
+    tagline: "The few things that matter on day one — and what can happily wait.",
+    intro:
+      "A new iPhone is exciting, and easy to overthink. You don't need to change everything on day one. " +
+      "We'll walk through first setup, moving from an old iPhone or Android, and the small choices that " +
+      "matter — while helping you skip the purchases and settings you don't need yet."
+  },
+  {
+    slug: "protect-my-data",
+    title: "I'm worried about losing my data",
+    tagline: "Photos, messages, accounts — keep them safe so you can stop worrying.",
+    intro:
+      "The fear is real: one dropped phone, and years of photos could be gone. The reassuring part is that " +
+      "a little setup removes almost all of that risk. We'll help you back up the things that matter, move " +
+      "to a new device without losing anything, and feel calm about your data again."
+  },
+  {
+    slug: "old-iphone",
+    title: "I want to figure out what to do with my old iPhone",
+    tagline: "Sell it, trade it in, keep it, or give it away — decide with confidence.",
+    intro:
+      "An old iPhone still has value, either to you or someone else. Whether you want cash, a backup phone, " +
+      "or to pass it on, we'll help you choose and then erase it safely so your data never leaves with it."
+  },
+  {
+    slug: "make-my-iphone-work-better",
+    title: "I want my iPhone to work better for me",
+    tagline: "Less clutter, fewer distractions, and a phone that fits your day.",
+    intro:
+      "Sometimes the phone that's supposed to help ends up adding noise — notifications, battery anxiety, a " +
+      "Home Screen that fights you. We'll help you quiet the clutter and tune a few settings so daily use " +
+      "feels more comfortable and less stressful."
+  },
+  {
+    slug: "apple-ecosystem",
+    title: "I want my Apple devices to work better together",
+    tagline: "When iPhone, Mac, iPad, and Watch actually help — not just because they can.",
+    intro:
+      "If you have more than one Apple device, they can take small burdens off your day: start here, finish " +
+      "there, find anything anywhere. We'll focus on the Handoff and Continuity features that genuinely make " +
+      "life easier — and be honest about when the ecosystem isn't worth chasing."
+  }
+];
