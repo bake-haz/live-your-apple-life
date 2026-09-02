@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Why does an app still run after I close it on iPhone?</title>
-  <meta name="description" content="You swiped the app away, but it still sends notifications or plays audio. That's not a stuck phone — it's how iOS keeps useful things alive. Here's what's really happening and what you can control." />
+  <title>Why Does an App Still Seem to Work After I Closed It? · Live Your Apple Life</title>
+  <meta name="description" content="Closing an iPhone app is not the same as disabling every feature connected to it. Learn what notifications, background refresh, location, media, and sync can mean before changing your settings." />
   <link rel="stylesheet" href="../assets/css/style.css" />
   <link rel="canonical" href="https://bake-haz.github.io/live-your-apple-life/guides/why-does-an-app-still-seem-to-work-after-i-closed-it.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Live Your Apple Life" />
   <meta property="og:title" content="Why Does an App Still Seem to Work After I Closed It? · Live Your Apple Life" />
-  <meta property="og:description" content="You swiped the app away, but it still sends notifications or plays audio. That's not a stuck phone — it's how iOS keeps useful things alive. Here's what's really happening and what you can control." />
+  <meta property="og:description" content="Closing an iPhone app is not the same as disabling every feature connected to it. Learn what notifications, background refresh, location, media, and sync can mean before changing your settings." />
   <meta property="og:url" content="https://bake-haz.github.io/live-your-apple-life/guides/why-does-an-app-still-seem-to-work-after-i-closed-it.html" />
   <meta name="theme-color" content="#0a84ff" />
 </head>
@@ -24,94 +24,132 @@
   <main class="wrap">
     <p class="crumb"><a href="../index.html">Home</a> / <a href="../intents/make-my-iphone-work-better.html">I want my iPhone to work better for me</a> / Why Does an App Still Seem to Work After I Closed It?</p>
     <h1 class="page-title">Why Does an App Still Seem to Work After I Closed It?</h1>
-    <p class="page-tagline">Closing an app and stopping an app are two different things.</p>
+    <p class="page-tagline">Closing an app is not the same as disabling every feature connected to it.</p>
 
     <div class="wondering">
-      <strong>You're probably here because</strong> you swiped an app up from the app switcher to close it, then later got a notification from it, heard it playing audio, or saw it had updated something. It feels like the phone ignored you. It didn't. "Closed from the switcher" and "fully stopped" are not the same action on iPhone.
+      <strong>You're probably here because</strong> you swiped an app up from the App Switcher, then a moment later a notification arrived, audio kept playing, new content showed up, or you noticed battery or cellular activity you didn't expect. The reaction is natural: &ldquo;I closed it.&rdquo; Exactly &mdash; but &ldquo;closed&rdquo; can mean something narrower than &ldquo;nothing connected to this app can happen again.&rdquo; That distinction is the whole point of this page.
     </div>
 
     <div class="answer">
-      <strong>Direct answer: closing an app from the switcher mostly just removes its open window — it doesn't stop the things iOS is allowed to keep doing for you.</strong> Notifications, incoming calls, audio, location, and scheduled refreshes are handled by the system, not by the open app. Those keep working by design. That's usually convenient, not a bug. You can turn most of them off per app if you'd rather they didn't.
+      <strong>Direct answer: removing an app from the App Switcher ends that app's recent-app state, but it does not automatically disable every independent mechanism that may still produce notifications, downloads, media, location behavior, or other activity associated with the app.</strong> Don't assume the app itself is continuously executing in the background; whether that is true depends on the specific mechanism involved. Closing the app is a real action &mdash; just not the same as turning off the app's services.
     </div>
 
     <section class="block">
-      <h2>What "closing" an app actually does</h2>
-      <p>When you open the app switcher and swipe an app away, you end its <em>foreground session</em>. The app is no longer on screen and isn't actively using the processor for what you were doing. But iOS keeps several capabilities alive on purpose, because they're useful:</p>
+      <h2>First, identify what &ldquo;still working&rdquo; actually means</h2>
+      <p>Pin down what you are actually seeing. The same feeling &mdash; &ldquo;it's still doing something&rdquo; &mdash; can come from very different causes:</p>
       <ul>
-        <li><strong>Notifications.</strong> These arrive through Apple's push system, not through the app sitting open. An app can notify you whether or not its window is on screen.</li>
-        <li><strong>Incoming calls and messages.</strong> The Phone and FaceTime apps, and messaging apps, receive these through the system even when "closed."</li>
-        <li><strong>Audio.</strong> If an app was playing something (music, a podcast, a video call), iOS lets it continue in the background until you stop it — that's why audio sometimes keeps going after you leave the app.</li>
-        <li><strong>Location.</strong> An app you granted "While Using" or "Always" location can keep receiving location in the background for navigation or reminders.</li>
-        <li><strong>Scheduled refreshes.</strong> With Background App Refresh on, apps can quietly fetch new content so it's ready when you next open them.</li>
+        <li><strong>A notification arrives.</strong> The app may deliver it through Apple's notification system. A notification is not proof the app is constantly running.</li>
+        <li><strong>Audio or media continues.</strong> Check whether a media session is still active and which app or control is actually responsible &mdash; not every audio app behaves the same way.</li>
+        <li><strong>New content appears when you reopen the app.</strong> That doesn't prove the app ran continuously after you closed it. The content may have refreshed when you opened it, or through a different system mechanism.</li>
+        <li><strong>Location still matters.</strong> Location access has its own permission and system behavior; &ldquo;closed&rdquo; does not mean location stops.</li>
+        <li><strong>Storage or downloads changed.</strong> Identify the actual download or sync mechanism before blaming the App Switcher gesture.</li>
+        <li><strong>Battery or cellular usage changed.</strong> Use <strong>Settings &gt; Battery</strong> and <strong>Settings &gt; Cellular</strong> as evidence &mdash; don't guess which app caused it.</li>
       </ul>
-      <p>None of that means the app is "still running like it was." It means a small, system-managed slice of it is allowed to do specific jobs. Think of closing the app as closing the window, not unplugging the phone.</p>
+      <p>This is the diagnostic heart of the article: name the symptom before naming the cause.</p>
     </section>
 
     <section class="block">
-      <h2>Why this feels wrong (and usually isn't)</h2>
-      <p>On a computer, closing a window often ends the program. On iPhone, the model is different: the OS decides what's allowed to keep living so your experience is smooth. Three results people notice:</p>
+      <h2>What closing an app actually does</h2>
+      <p>Removing an app from the App Switcher removes it from the recent-app view and ends its foreground session. It is not a universal &ldquo;disable everything&rdquo; command. Other Apple mechanisms &mdash; notifications, sync, location, media &mdash; are controlled separately, and closing one app does not reach them.</p>
+      <p>Closing is still right when an app is frozen, when you want to end its session now, or as a troubleshooting first step. The gesture matters; it just isn't a master switch.</p>
+    </section>
+
+    <section class="block">
+      <h2>Background App Refresh is one mechanism, not the explanation</h2>
+      <p>Background App Refresh lets suspended apps check for new content under system-controlled conditions. You manage it in <strong>Settings &gt; General &gt; Background App Refresh</strong>, where you can turn it off or limit it to Wi-Fi or Wi-Fi &amp; Cellular Data. When you close an app from the App Switcher, it may not be able to run or check for new content until you open it again.</p>
+      <p>But Background App Refresh is a single mechanism. It does not explain every notification, every media session, every sync, or every location event. Treat it as one suspect, not the verdict.</p>
+    </section>
+
+    <section class="block">
+      <h2>Notifications are a separate system</h2>
+      <p>If you close an app and later receive a notification, that does not mean the app reopened itself. Notification delivery is handled by the system, not by the app sitting open on your screen. Receiving an alert is not proof the app is actively executing. For the fuller picture, see <a href="../guides/why-do-iphone-notifications-feel-so-different-from-android.html">Why do iPhone notifications feel so different from Android?</a>.</p>
+    </section>
+
+    <section class="block">
+      <h2>Location is a separate permission model</h2>
+      <p>An app's location access is controlled separately from the App Switcher. Whether location activity can continue depends on the app's location permission and the system behavior associated with that permission &mdash; not on whether you swiped the app away. You adjust it in <strong>Settings &gt; Privacy &amp; Security &gt; Location Services</strong>.</p>
+    </section>
+
+    <section class="block">
+      <h2>Media and audio are separate too</h2>
+      <p>If media keeps playing after you swipe an app away, first identify which app is the current playback source and whether the system media controls still show an active session. Another connected device may be controlling playback. This is not the same as &ldquo;the app is still open,&rdquo; and it isn't a reason to treat every audio app the same way. If a Bluetooth device is involved, see <a href="../guides/why-wont-my-bluetooth-device-connect-to-my-iphone.html">Why won't my Bluetooth device connect to my iPhone?</a>.</p>
+    </section>
+
+    <section class="block">
+      <h2>Cloud sync, files, and photos</h2>
+      <p>A photo, file, or cloud-linked change can happen because a sync system is moving data between your devices and a service &mdash; not because the app runs in the background. If iCloud Photos is the part you noticed, that's a sync library, not a background process: see <a href="../guides/is-icloud-photos-a-backup.html">Is iCloud Photos actually a backup?</a>.</p>
+    </section>
+
+    <section class="block">
+      <h2>Closing the app is not the same as removing its permissions</h2>
+      <p>This is the mental model worth keeping:</p>
       <ul>
-        <li><strong>"It notified me even though I closed it."</strong> Expected — notifications don't need the app open.</li>
-        <li><strong>"Music kept playing."</strong> Expected — audio continues until you pause it in Control Center or the Lock Screen.</li>
-        <li><strong>"It used data while I wasn't looking."</strong> Could be a background refresh or an app finishing a sync. See <a href="../guides/why-does-my-iphone-seem-to-do-things-on-its-own.html">Why does my iPhone seem to do things on its own?</a></li>
+        <li><strong>Closing &ne; notifications disabled.</strong> The app can still alert you.</li>
+        <li><strong>Closing &ne; location permissions revoked.</strong> Its location access stays as you set it.</li>
+        <li><strong>Closing &ne; account signed out.</strong> Your login is untouched.</li>
+        <li><strong>Closing &ne; cloud synchronization disabled.</strong> Sync keeps working by design.</li>
+        <li><strong>Closing &ne; subscription cancelled.</strong> Payments and access continue.</li>
+        <li><strong>Closing &ne; media session necessarily ended.</strong> Audio may keep playing until you pause it.</li>
       </ul>
-      <p>This design is also why a warm phone in your pocket often isn't broken — background activity from "closed" apps is one of the normal causes. See <a href="../guides/why-does-my-iphone-get-warm-when-im-not-using-it.html">Why does my iPhone get warm when I'm not using it?</a></p>
+      <p>One gesture should not be read as changing five unrelated systems. Each of those is its own control.</p>
+    </section>
+
+    <section class="block">
+      <h2>When the behavior deserves a closer look</h2>
+      <p>Focus on evidence, not anxiety:</p>
+      <ul>
+        <li><strong>Battery usage changed unexpectedly</strong> &mdash; check <strong>Settings &gt; Battery</strong> to see which app is responsible.</li>
+        <li><strong>Cellular usage changed unexpectedly</strong> &mdash; check <strong>Settings &gt; Cellular</strong> for the app or service using it.</li>
+        <li><strong>A permission prompt appears unexpectedly</strong> &mdash; treat it as a permission or account event, not ordinary background activity.</li>
+        <li><strong>The app repeatedly downloads content you didn't expect</strong> &mdash; inspect its own settings and the relevant system download mechanism.</li>
+        <li><strong>The app behaves differently every time you reopen it</strong> &mdash; work out whether you're seeing a sync state, a setting, or actual app behavior.</li>
+        <li><strong>Nothing measurable happened; the app simply reappears in the App Switcher</strong> &mdash; that alone is not evidence of background activity.</li>
+      </ul>
     </section>
 
     <div class="decide">
-      <h3>A simple way to decide what to control</h3>
-      <p>You don't have to manage all of this. Pick by annoyance:</p>
-      <ul>
-        <li><strong>If notifications bug you</strong> — turn them off per app in <strong>Settings &gt; Notifications</strong>. The app still works; it just stays quiet.</li>
-        <li><strong>If background data or battery bugs you</strong> — look at <strong>Settings &gt; General &gt; Background App Refresh</strong> and switch individual apps off. They'll only refresh when you open them.</li>
-        <li><strong>If location bugs you</strong> — in <strong>Settings &gt; Privacy &amp; Security &gt; Location Services</strong>, change each app to "While Using" or "Never."</li>
-        <li><strong>If audio won't stop</strong> — pause it from Control Center or the Lock Screen. That's the real "off" switch for sound.</li>
-      </ul>
+      <h3>Before you blame the phone &mdash; or yourself</h3>
+      <p>Seeing something happen after you closed an app doesn't prove you did the gesture wrong. It also doesn't prove the app is ignoring you. The useful response is to identify the behavior before changing the phone. You don't have to understand every background process &mdash; you only need to name the one you noticed.</p>
     </div>
-
-    <section class="block">
-      <h2>When closing the app is the right move</h2>
-      <p>Closing from the switcher is genuinely useful in a few cases — it's just not a daily necessity:</p>
-      <ul>
-        <li><strong>An app is frozen or misbehaving.</strong> Swiping it away and reopening clears a stuck state.</li>
-        <li><strong>An app is doing something you want to stop now.</strong> For audio or a live session, closing it ends the foreground part immediately (though you may still need to pause audio separately).</li>
-        <li><strong>You're troubleshooting.</strong> Support steps often start with "close and reopen the app" because it resets the session.</li>
-      </ul>
-      <p>What closing does <em>not</em> do: free meaningful battery in normal use, or "kill" notifications. If battery drain is your real worry, the Battery screen tells you which app is actually responsible — see <a href="../guides/why-does-my-iphone-battery-drop-so-fast.html">Why does my iPhone battery drop so fast after I get it?</a></p>
-    </section>
-
-    <section class="block">
-      <h2>The "too many apps open" worry</h2>
-      <p>A common fear is that a long app switcher means twenty apps are "running" and slowing the phone or draining the battery. That's not how iOS works. Apps you've left in the switcher are mostly <em>suspended</em> — held in memory but not using the processor. They sit there like open tabs you haven't clicked, not like programs spinning in the background.</p>
-      <ul>
-        <li><strong>Suspended apps use almost no power.</strong> They're frozen until you return to them. They don't tick, fetch, or compute while suspended.</li>
-        <li><strong>Having many suspended apps doesn't slow the phone.</strong> When you open a new app and memory is tight, iOS quietly pushes the oldest suspended one out of memory. That's automatic; you don't manage it by hand.</li>
-        <li><strong>Closing them all can backfire.</strong> Reopening a cold app takes more energy than waking a suspended one, so a daily "close everything" habit can slightly increase, not decrease, battery use.</li>
-      </ul>
-      <p>The one exception is an app that's genuinely misbehaving — frozen, stuck, or looping. For that single app, swiping it away is the right move, because you're clearing a broken session rather than tidying a healthy one.</p>
-    </section>
 
     <div class="note dont">
       <h3>You probably don't need to</h3>
       <ul>
-        <li><strong>Close every app every day.</strong> It doesn't save battery and can even cost a little, because reopening apps later takes more power than leaving suspended ones alone.</li>
-        <li><strong>Worry that the phone "ignored" you.</strong> It carried out exactly what closing does. The rest is system behavior you can adjust.</li>
-        <li><strong>Assume an app is spying because it notified you.</strong> Notifications are the app asking the system to alert you — not the app running hidden on your screen.</li>
+        <li><strong>Force-close every app repeatedly.</strong> Closing is for a frozen or misbehaving app, not a daily reset.</li>
+        <li><strong>Disable Background App Refresh for every app before identifying the symptom.</strong> Turn it off only for the app whose background refresh is actually a problem.</li>
+        <li><strong>Turn off every notification.</strong> Adjust the one app that bugs you in <strong>Settings &gt; Notifications</strong>.</li>
+        <li><strong>Revoke every location permission because one app behaved unexpectedly.</strong> Change the specific app's setting instead.</li>
+        <li><strong>Reset the iPhone because one app appeared to keep doing something.</strong> A single app rarely calls for a full reset.</li>
+        <li><strong>Assume a notification means the app was continuously executing in the background.</strong> Notifications arrive through the system, not an open app.</li>
+        <li><strong>Assume closing an app disables every cloud, account, or media mechanism connected to it.</strong> Those are separate controls.</li>
       </ul>
+      <p>Don't use a bigger system-wide change to solve a behavior you haven't identified yet.</p>
     </div>
+
+    <section class="block">
+      <h2>A simple way to decide</h2>
+      <ul>
+        <li><strong>I closed it and still got a notification.</strong> Treat it as a notification-system question, not proof the app is running.</li>
+        <li><strong>I closed it and audio kept playing.</strong> Identify the active media session and its source.</li>
+        <li><strong>I closed it and the app still seems to affect location.</strong> Inspect its current location permission and the behavior involved.</li>
+        <li><strong>I closed it but data or storage changed.</strong> Check Battery and Cellular, then identify the actual mechanism.</li>
+        <li><strong>I only see the app again when I reopen it.</strong> That alone does not establish background activity.</li>
+        <li><strong>I still cannot explain what happened.</strong> Isolate the exact symptom before changing system settings.</li>
+      </ul>
+    </section>
 
     <section class="block">
       <h2>What to do next</h2>
       <ul class="related">
-        <li>If the phone feels warm from this background life, read <a href="../guides/why-does-my-iphone-get-warm-when-im-not-using-it.html">Why does my iPhone get warm when I'm not using it?</a></li>
-        <li>If the phone seems to sync and download on its own, read <a href="../guides/why-does-my-iphone-seem-to-do-things-on-its-own.html">Why does my iPhone seem to do things on its own?</a></li>
-        <li>If battery life is the real concern, start with <a href="../guides/why-does-my-iphone-battery-drop-so-fast.html">Why does my iPhone battery drop so fast after I get it?</a></li>
-        <li>To review what each app can access, go to <strong>Settings &gt; Privacy &amp; Security</strong> and tap through the categories.</li>
+        <li>If the phone feels warm from this kind of activity, read <a href="../guides/why-does-my-iphone-get-warm-when-im-not-using-it.html">Why does my iPhone get warm when I'm not using it?</a></li>
+        <li>If it seems to update and download on its own, read <a href="../guides/why-does-my-iphone-seem-to-do-things-on-its-own.html">Why does my iPhone seem to do things on its own?</a></li>
+        <li>If battery life is the real concern, start with <a href="../guides/why-does-my-iphone-battery-drop-so-fast.html">Why does my iPhone battery drop so fast?</a></li>
+        <li>If notifications feel confusing, read <a href="../guides/why-do-iphone-notifications-feel-so-different-from-android.html">Why do iPhone notifications feel so different from Android?</a></li>
       </ul>
     </section>
 
     <div class="askus">
-      <p><strong>One app in particular won't stay quiet?</strong> Tell us which one via <a href="../ask-us.html">Ask Us</a> — name the app and what it keeps doing — and we'll point to the exact setting that controls it.</p>
+      <p><strong>One app in particular won't stay quiet?</strong> Tell us which one via <a href="../ask-us.html">Ask Us</a> &mdash; name the app and what it keeps doing &mdash; and we'll point to the exact setting that controls it.</p>
     </div>
   </main>
 
