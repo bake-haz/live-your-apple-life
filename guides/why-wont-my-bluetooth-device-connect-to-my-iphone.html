@@ -24,70 +24,105 @@
   <main class="wrap">
     <p class="crumb"><a href="../index.html">Home</a> / <a href="../intents/make-my-iphone-work-better.html">I want my iPhone to work better for me</a> / Why Won't My Bluetooth Device Connect to My iPhone?</p>
     <h1 class="page-title">Why Won't My Bluetooth Device Connect to My iPhone?</h1>
-    <p class="page-tagline">Bluetooth pairing is mostly about the other device — not the iPhone.</p>
+    <p class="page-tagline">Before you reset anything, find out whether the problem follows the iPhone or the Bluetooth device.</p>
 
     <div class="wondering">
-      <strong>You're probably here because</strong> you put your headphones, car, or speaker into pairing mode, tapped around on the iPhone, and nothing happened — or it paired once and now won't reconnect. It's tempting to blame the phone. But Bluetooth pairing is a two-device handshake, and usually the part that's stuck is on the accessory's side.
+      <strong>You're here because</strong> a Bluetooth device that should connect isn't connecting — and it's natural to wonder whether the iPhone's Bluetooth is broken. One failed connection is information about one connection. It isn't automatically a diagnosis of the phone.
     </div>
 
     <div class="answer">
-      <strong>Direct answer: the iPhone is rarely the broken half.</strong> For a new device, the accessory must be in its own "pairing" or "discoverable" mode — a step people skip. For a device that paired before, the fix is usually to "forget" it on the iPhone and pair again. Get those two right and most pairing problems disappear.
+      <strong>Direct answer: find out whether the failure follows the iPhone or the device.</strong> The fastest useful test is to try a different Bluetooth device. If another Bluetooth device connects, the iPhone's Bluetooth path is working, and the problem is narrower — it points at the original device or its pairing. If several known-working Bluetooth devices all fail to connect, the evidence points more toward the iPhone side and is worth investigating further. Don't start by resetting the phone; start by seeing which side the failure follows.
     </div>
 
     <section class="block">
-      <h2>How pairing actually works on the iPhone</h2>
-      <p>Open <strong>Settings &gt; Bluetooth</strong>. When Bluetooth is on, the iPhone broadcasts that it's looking, and a list of nearby devices in pairing mode appears under "Other Devices." Tap one to pair. That's the whole flow. The catch: the iPhone can only see a device that is <em>actively</em> in pairing mode — a headphone that's just on, or a car that's just running, often isn't broadcasting. Each accessory enters pairing mode its own way (hold a button, say "pair," toggle a setting), and the iPhone has no control over that half.</p>
+      <h2>The fastest useful test</h2>
+      <p>Try a different Bluetooth device. The value of this test isn't that it "fixes" Bluetooth — it's that it tells you whether the problem travels with the iPhone. Put a second device (a keyboard, another speaker, a different pair of headphones) into pairing mode and see if the iPhone finds and pairs it. One result changes where you spend your effort:</p>
+      <ul>
+        <li><strong>Another device works</strong> → the iPhone's Bluetooth path is functioning. The issue is the original device or its pairing relationship.</li>
+        <li><strong>Several devices fail</strong> → the evidence points more toward the iPhone side — Bluetooth state, recent software, or the wireless stack — and that's the place to look next.</li>
+      </ul>
+      <p>This single test replaces a lot of guessing. It doesn't repair anything by itself; it locates the layer where the failure lives.</p>
     </section>
 
     <section class="block">
-      <h2>For a device you've never paired</h2>
+      <h2>Bluetooth is a connection between two devices</h2>
+      <p>A Bluetooth link is a handshake between the iPhone and the accessory. Both sides have to cooperate, so the check has to look at each side separately.</p>
+      <p><strong>iPhone side</strong></p>
       <ul>
-        <li><strong>Put the accessory in pairing mode.</strong> Check its manual or the maker's site for the exact gesture. Until it's in that mode, it won't show up — and that's not an iPhone fault.</li>
-        <li><strong>Keep them close.</strong> A few feet apart, with a clear line, pairs far more reliably than across the room or through a bag.</li>
-        <li><strong>Watch for the confirm code.</strong> Some devices show a code on both screens; approve it on the iPhone. If you ignore that prompt, pairing silently fails.</li>
-        <li><strong>Only one connection at a time.</strong> Most headphones or speakers connect to a single phone. If they're still linked to a laptop, they may refuse the iPhone until you disconnect the first.</li>
+        <li>Bluetooth is turned on in <strong>Settings &gt; Bluetooth</strong>.</li>
+        <li>The iPhone is running current software where an update is appropriate.</li>
+        <li>A restart has been tried when the connection is stuck.</li>
+        <li>Device-specific settings, such as audio routing, are set the way you want.</li>
+      </ul>
+      <p><strong>The other device side</strong></p>
+      <ul>
+        <li>It's powered on and charged enough to pair.</li>
+        <li>It's in discoverable or pairing mode — its own step, not the iPhone's.</li>
+        <li>It's close to the iPhone, with a clear path between them.</li>
+        <li>It isn't already connected to another phone or laptop.</li>
+        <li>If it supports a pairing reset (Apple or the maker), that reset is device-specific — there is no single universal button.</li>
       </ul>
     </section>
 
     <section class="block">
-      <h2>For a device that paired before but won't reconnect</h2>
-      <p>This is the common one. The old link is stuck, or the accessory "remembers" a different phone. On the iPhone, under <strong>Settings &gt; Bluetooth</strong>, tap the <em>i</em> next to the device and choose <strong>Forget This Device</strong>. Then put the accessory back into pairing mode and pair fresh. It feels like a reset, but it's really just clearing a confused memory on both sides.</p>
-      <p>If it still won't hold, restart the iPhone and the accessory. A restart clears the temporary Bluetooth state that sometimes refuses to reconnect after an update or a long time asleep.</p>
+      <h2>Four states, four different next steps</h2>
+      <p>The same words "it won't connect" hide four different failures. Name the state you're in:</p>
+      <p><strong>A. The device doesn't appear.</strong> The iPhone can only see a device that is actively in pairing mode. Check discoverable mode, distance, the device's power, and that Bluetooth is on. The device simply isn't broadcasting yet.</p>
+      <p><strong>B. It appears but pairing fails.</strong> This points at the pairing itself — an existing pairing on one side, a compatibility limit, or a code or PIN prompt that was ignored. Clear the old pairing and try again.</p>
+      <p><strong>C. It pairs but disconnects.</strong> Once paired, the link depends on distance, interference, the device's own state, and its battery. Move them closer and confirm the accessory is awake and charged.</p>
+      <p><strong>D. It pairs and works briefly, then stops.</strong> Now determine whether the failure follows the device or the iPhone. If it happens with this device only, the device is the clue; if it happens across several devices, the iPhone side is the clue.</p>
+    </section>
+
+    <section class="block">
+      <h2>Forget This Device is a way to clear a pairing</h2>
+      <p>When a device paired before but won't reconnect, the old link is what's stuck. On the iPhone, open <strong>Settings &gt; Bluetooth</strong>, tap the information button next to the device, and choose <strong>Forget This Device</strong>. Then put the accessory back into pairing mode and pair again.</p>
+      <p>This is a way to clear an old pairing relationship — not proof that Bluetooth itself is broken. It clears the link on the iPhone; if the accessory also "remembers" the old pairing, clear it on the accessory too (per its manual), then pair fresh from both sides. Don't run this on every device as a routine; use it for the one connection that's actually stuck.</p>
+    </section>
+
+    <section class="block">
+      <h2>What the test tells you</h2>
+      <ul>
+        <li><strong>One device fails, others work</strong> → look at that device and its pairing.</li>
+        <li><strong>Several devices fail</strong> → investigate the iPhone side.</li>
+        <li><strong>It appears but won't pair</strong> → pairing, compatibility, or an existing pairing state.</li>
+        <li><strong>It pairs but keeps dropping</strong> → find out whether the behavior follows the device or shows up across multiple devices.</li>
+      </ul>
+    </section>
+
+    <section class="block">
+      <h2>Before you blame your iPhone</h2>
+      <p>A Bluetooth device that suddenly won't connect doesn't prove the whole iPhone has a problem. One failed connection is information about one connection. It isn't automatically a diagnosis of the phone. The calm move is to test one more device before assuming the radio is at fault — because a single stubborn accessory looks identical to a broken phone until you check.</p>
+    </section>
+
+    <section class="block">
+      <h2>If it's only your car</h2>
+      <p>If only the car fails while other Bluetooth devices connect fine, don't start by suspecting the iPhone's Bluetooth hardware. A car has its own stored pairing list, its own discovery mode, and its own profile state. First delete the old pairing from the car, put the car back into its pairing mode, and confirm the car is currently allowing a new device to join. The exact steps differ by make and model, so follow the car maker's instructions rather than a generic rule — the iPhone is just waiting for the car to invite it.</p>
+    </section>
+
+    <section class="block">
+      <h2>AirPods have their own guide</h2>
+      <p>If the device you're struggling with is AirPods, they have their own dedicated guide: <a href="../guides/why-wont-my-airpods-connect-to-my-iphone.html">Why won't my AirPods connect to my iPhone?</a> The steps below are for generic Bluetooth devices — keyboards, mice, speakers, controllers, car audio, and headphones that aren't AirPods.</p>
     </section>
 
     <div class="note dont">
       <h3>You probably don't need to</h3>
-      <p>Don't reach for "Reset Network Settings" as your first move for a Bluetooth problem — it clears Wi-Fi and cellular settings too, and is rarely needed for pairing. Don't assume the iPhone's Bluetooth is defective either; a phone that pairs with <em>one</em> accessory but not another is telling you the issue is the stubborn accessory, not the radio.</p>
+      <p>Don't reset the whole iPhone because one earbud, keyboard, or car won't connect. Don't delete every paired device at once as a first step. Don't switch off privacy or wireless settings to scrape together a fix. Don't turn one device's problem into "the iPhone's Bluetooth is broken." And don't assume the hardware is faulty the first time a single pairing fails — test another device first.</p>
     </div>
 
     <section class="block">
-      <h2>When something else is in the way</h2>
-      <p>A few ordinary things interfere: the accessory is already connected to another phone in your pocket; it's out of charge (some won't pair while nearly dead); or it's a car that only pairs when the engine is on and the audio screen is up. Physical obstruction and other Bluetooth devices nearby add minor noise but rarely block pairing entirely. If a specific car keeps failing, the car's own Bluetooth list may be full and need its oldest entry deleted.</p>
-    </section>
-
-    <section class="block">
-      <h2>If audio stutters or cuts out</h2>
-      <p>Once paired, Bluetooth audio can still drop in and out. The usual reasons are distance and obstruction — Bluetooth reaches a few meters, and a body or wall between phone and earbuds weakens it. Other active Bluetooth devices and some Wi-Fi congestion add minor interference. If it only happens at the far end of the room, that's range, not a fault. An accessory with a nearly dead battery may also drop connection to save power. None of these mean the iPhone's Bluetooth is broken; they're the normal limits of a short-range radio.</p>
-    </section>
-
-    <section class="block">
-      <h2>Cars: the usual gotchas</h2>
-      <p>Car pairing trips up more people than any other case. Most cars only pair while the engine is on and the audio or phone screen is up, and many remember a limited number of phones — if yours is "full," delete the oldest entry in the car's Bluetooth list first. Also, a car already linked to a different phone in the car will ignore your iPhone until that link is dropped. These are car rules; the iPhone is just waiting for the car to invite it, and no iPhone setting forces a stubborn car to cooperate.</p>
-    </section>
-
-    <section class="block">
-      <h2>Forget it on both sides</h2>
-      <p>When a reconnect is stubborn, forgetting the device only on the iPhone sometimes isn't enough — the accessory may still "remember" the old pairing and refuse the new one. If the accessory lets you clear its pairings (a long-press or a reset button, per its manual), do that too, then pair fresh from scratch. Starting clean on both ends resolves more cases than people expect, especially for headphones that were previously tied to another phone.</p>
-    </section>
-
-    <section class="block">
-      <h2>One more thing: the radios are linked</h2>
-      <p>Bluetooth shares the iPhone's wireless hardware with Wi-Fi and with AirDrop. If all three misbehave at once after an update, that points to the radio stack, and a restart or — as a last resort — Reset Network Settings tends to clear it. When only Bluetooth fails, it's the accessory; when all wireless fails together, it's the phone's state. That distinction saves a lot of guessing before you touch any settings.</p>
+      <h2>When several devices fail on the iPhone</h2>
+      <p>If the cross-device test shows the iPhone side is the problem, work light to heavy. Confirm Bluetooth is on, restart the iPhone, and install any available software update. Bluetooth shares the iPhone's wireless hardware with Wi-Fi; when several wireless features misbehave together after an update, that points to the radio state, and a restart is the first step.</p>
+      <p><strong>Reset Network Settings</strong> is a last resort, not a Bluetooth diagnosis. Use it only when several Bluetooth devices fail, the lighter steps above haven't helped, and the problem clearly sits in the iPhone's connection state. It resets Wi-Fi network and password memory, cellular settings, VPN and APN configuration, and Bluetooth pairing info — so it costs more than the pairing alone. Reach for it only after the cross-device test points at the iPhone.</p>
     </section>
 
     <div class="decide">
       <h3>A simple way to decide</h3>
-      <p>If the iPhone pairs with <em>other</em> Bluetooth devices but not this one → the accessory is the stuck half; forget and re-pair it, or check its pairing mode. If the iPhone pairs with <em>nothing</em> → restart it, then, as a last step, Reset Network Settings. That split tells you where to spend your effort.</p>
+      <p><strong>Only one device fails</strong> → start with that device and its pairing state.</p>
+      <p><strong>Several known-working Bluetooth devices fail</strong> → investigate the iPhone side.</p>
+      <p><strong>The device appears but won't pair</strong> → pairing, compatibility, or an old pairing state.</p>
+      <p><strong>It pairs but keeps dropping</strong> → test another device and see whether the failure follows the device.</p>
+      <p><strong>Only your car fails</strong> → look at the car's stored pairing and its pairing mode.</p>
+      <p>You don't need to troubleshoot Bluetooth everywhere. You only need to find out whether the problem follows the iPhone or the device.</p>
     </div>
 
     <section class="block">
@@ -95,7 +130,7 @@
       <ul class="related">
         <li>The other radio: <a href="../guides/why-wont-my-iphone-connect-to-wifi.html">Why won't my iPhone connect to Wi-Fi?</a></li>
         <li>Sharing your connection: <a href="../guides/why-isnt-my-personal-hotspot-working.html">Why isn't my Personal Hotspot working?</a></li>
-        <li>AirDrop depends on the same Bluetooth + Wi-Fi radios: <a href="../guides/why-does-airdrop-sometimes-not-work-when-it-should.html">Why does AirDrop sometimes not work when it should?</a></li>
+        <li>AirDrop uses the same Bluetooth and Wi-Fi radios: <a href="../guides/why-does-airdrop-sometimes-not-work-when-it-should.html">Why does AirDrop sometimes not work when it should?</a></li>
       </ul>
     </section>
 
