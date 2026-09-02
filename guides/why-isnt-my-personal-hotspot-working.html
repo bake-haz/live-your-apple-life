@@ -24,65 +24,85 @@
   <main class="wrap">
     <p class="crumb"><a href="../index.html">Home</a> / <a href="../intents/make-my-iphone-work-better.html">I want my iPhone to work better for me</a> / Why Isn't My Personal Hotspot Working?</p>
     <h1 class="page-title">Why Isn't My Personal Hotspot Working?</h1>
-    <p class="page-tagline">It's a feature with three requirements — miss one and it quietly won't appear.</p>
+    <p class="page-tagline">Personal Hotspot shares your iPhone's cellular connection — so the real question is which part is failing: the feature, the cellular path, or the device trying to connect.</p>
 
     <div class="wondering">
-      <strong>You're probably here because</strong> you turned on what you thought was a hotspot, or looked for it on another device, and nothing showed up. Personal Hotspot is one of those features that depends on several things lining up at once — carrier support, cellular data, and a specific switch — so when one is missing it fails silently instead of telling you why.
+      <strong>You're probably here because</strong> the Personal Hotspot option disappeared, your laptop can't find your iPhone, the hotspot turns on but nothing can join, or it worked yesterday and not today. Underneath is a quieter worry: is my iPhone broken? You don't have to take that on faith in either direction. A hotspot has a few distinct layers, and the state you're looking at tells you which layer failed.
     </div>
 
     <div class="answer">
-      <strong>Direct answer: Personal Hotspot needs cellular data, a carrier plan that includes it, and "Allow Others to Join" turned on.</strong> It is not the same as your normal Wi-Fi, and turning on Wi-Fi on the iPhone does not create a hotspot. Once those three are true, the other device connects through Wi-Fi, Bluetooth, or USB — and nearby Apple devices can use the quicker Instant Hotspot.
+      <strong>Short answer: before changing any settings, find out which part is failing — the hotspot feature itself, the iPhone's cellular connection, or the device trying to connect.</strong> What you see right now points to where to look:
+      <ul>
+        <li><strong>Option missing or greyed out</strong> — the cellular / carrier path.</li>
+        <li><strong>Option exists, other device can't see it</strong> — discovery and device setup.</li>
+        <li><strong>Visible but won't connect</strong> — password, compatibility, or connection state.</li>
+        <li><strong>Connected but no internet</strong> — the cellular / carrier / internet path.</li>
+      </ul>
     </div>
 
     <section class="block">
-      <h2>Where the hotspot actually lives</h2>
-      <p>Open <strong>Settings &gt; Personal Hotspot</strong> (on some versions it's under <strong>Settings &gt; Cellular &gt; Personal Hotspot</strong>). The one switch that matters is <strong>Allow Others to Join</strong>. Turn it on. If the whole Personal Hotspot option is dimmed or missing, that usually points to the carrier or cellular data, not a setting you can toggle. If it's truly unavailable, go to <strong>Settings &gt; Cellular</strong> and make sure <strong>Cellular Data</strong> is on — Personal Hotspot rides on top of it.</p>
+      <h2>What Personal Hotspot actually shares</h2>
+      <p>Personal Hotspot doesn't share the Wi-Fi your iPhone is joined to. It shares the iPhone's <strong>cellular data connection</strong> as a small network of its own. That one fact sorts a lot of confusion: the hotspot needs cellular data to exist at all, and if the cellular path is down, the hotspot has nothing to share — no matter what its switch says.</p>
     </section>
 
     <section class="block">
-      <h2>Why it might not appear on the other device</h2>
+      <h2>Start with what you can actually see</h2>
+      <p>Match the state in front of you to one of these. Each points to a different layer:</p>
       <ul>
-        <li><strong>Your carrier may not include it.</strong> Personal Hotspot requires a wireless carrier that supports it, and some plans charge extra or don't offer it. If the option is missing entirely, this is the most likely reason — not something a setting can fix.</li>
-        <li><strong>Cellular data is off.</strong> No cellular data, no hotspot. The feature literally shares the phone's mobile connection.</li>
-        <li><strong>The phone is already on a Wi-Fi network.</strong> This surprises people: when your iPhone is connected to Wi-Fi, Personal Hotspot typically won't broadcast, because the phone assumes you'd use that Wi-Fi instead. Disconnect from Wi-Fi and the hotspot becomes available.</li>
-        <li><strong>The other device is too far or has Wi-Fi/Bluetooth off.</strong> For Instant Hotspot (Apple devices on the same account or Family Sharing), both devices need to be near each other with Wi-Fi and Bluetooth on. Stay on the Personal Hotspot screen on the iPhone until the other device connects.</li>
-        <li><strong>Too many devices already joined.</strong> The number of devices that can connect at once depends on your carrier and iPhone model.</li>
+        <li><strong>"Personal Hotspot" isn't there or is greyed out.</strong> Open <strong>Settings &gt; Cellular</strong> first: the hotspot rides on cellular data, so confirm Cellular Data is on and working. If cellular data works but the option is still missing or unavailable, the next gate is your carrier — Personal Hotspot requires a wireless provider that supports it, some plans charge extra for it, and the number of devices that can join at once depends on the carrier and iPhone model. That's a plan question, not a settings hunt.</li>
+        <li><strong>It's there, but the other device can't see it.</strong> Make sure <strong>Allow Others to Join</strong> is on, and stay on the Personal Hotspot screen until the other device connects — Apple's own steps say to keep that screen open. Keep the two devices close, and check that the connecting device's Wi-Fi is on. If the other device is a Mac, iPad, or another iPhone, see Instant Hotspot below.</li>
+        <li><strong>It appears, but refuses to connect.</strong> Check the hotspot's Wi-Fi password — it's shown right on the Personal Hotspot screen, and it needs at least eight characters. On the device trying to join, toggle Wi-Fi off and back on, in case it's holding an old connection state. If one particular device still won't join, Maximize Compatibility (below) exists for that kind of wireless mismatch.</li>
+        <li><strong>It connects, but the other device has no internet.</strong> Discovery worked — the hotspot itself is running. The question moves to the iPhone's cellular data, the carrier plan, or the cellular network: check whether the iPhone itself can load a page right now, and whether cellular data is available at all. Connected to the hotspot is not the same as internet available.</li>
       </ul>
     </section>
 
     <section class="block">
-      <h2>Two switches worth knowing</h2>
-      <p>In Personal Hotspot settings you can set a <strong>Wi-Fi Password</strong> (at least eight characters). If a device can't connect, an old or weak password is a common cause — set a fresh one. And if a connection keeps dropping or an older laptop struggles, turn on <strong>Maximize Compatibility</strong> in the same settings; it trades a little speed for broader compatibility. Apple's own guidance suggests both of these when the hotspot isn't working after updates and a restart.</p>
+      <h2>Instant Hotspot is a shortcut, not the feature</h2>
+      <p>Instant Hotspot is the quicker way Apple devices connect to each other's hotspot — it isn't a separate feature with its own switch. It shows up when the devices are signed in to the same Apple Account or belong to the same Family Sharing group, are near each other, and have Wi-Fi and Bluetooth turned on. If Instant Hotspot doesn't appear on your Mac or iPad, that doesn't mean Personal Hotspot is broken: the regular path — choosing the iPhone's network from the Wi-Fi list and entering its password — still works.</p>
     </section>
 
     <section class="block">
-      <h2>Three ways the other device can connect</h2>
-      <p>The hotspot isn't only "Wi-Fi." A Mac, iPad, or another iPhone near yours can use <strong>Instant Hotspot</strong> — it appears in the Wi-Fi list automatically when both are on the same Apple Account or Family Sharing group, with Wi-Fi and Bluetooth on. You can also connect over <strong>Bluetooth</strong> (pair the two devices first), or with a <strong>USB cable</strong> to a computer (on Windows that needs the Apple Devices or iTunes app installed, and you may need to tap "Trust" on the iPhone). If one method won't connect, try another — they fail for different reasons, so a USB cable often works when Wi-Fi discovery doesn't.</p>
+      <h2>Wi-Fi, Bluetooth, USB — use them as diagnostics</h2>
+      <p>The hotspot supports three connection methods: Wi-Fi, Bluetooth, and USB. Treat them as diagnostic routes rather than tricks. If Wi-Fi discovery fails but a USB cable connects, you've learned something useful: the iPhone can still provide its connection, and the problem is specific to the wireless path — discovery or authentication. If USB also fails to give the other device internet, the evidence points back toward the hotspot or the cellular connection itself.</p>
     </section>
 
     <section class="block">
-      <h2>What it costs you: data and battery</h2>
-      <p>A hotspot shares your mobile data, so whatever the other device does — video, updates, backups — counts against your plan. Some carriers charge separately for hotspot use; check yours. It also uses more battery on the iPhone, since it's transmitting a network. Turning off "Allow Others to Join" when you're done avoids surprise data use (on a laptop, simply plugging the iPhone in to charge can quietly reconnect the hotspot). None of this is a malfunction — it's the nature of sharing a connection.</p>
+      <h2>Maximize Compatibility is a compatibility tool</h2>
+      <p>When a specific device struggles to join or stay joined over the wireless connection, <strong>Maximize Compatibility</strong> changes how the hotspot broadcasts so that kind of device can connect. Apple notes that with it on, internet performance and Wi-Fi security may be reduced — so it's a tool for a known mismatch, not a default. Turn it on for the device that won't cooperate; leave it off otherwise.</p>
     </section>
 
     <section class="block">
-      <h2>Why it worked yesterday and not today</h2>
-      <p>The common, non-scary reasons: cellular data got turned off (by you or an automation), the phone joined a Wi-Fi network so the hotspot stopped broadcasting, the carrier had a brief outage, or the other device moved out of range. None require a reset. Walk the list above — cellular on, Allow Others to Join on, Wi-Fi disconnected on the phone, devices close — and it usually returns without a call to anyone.</p>
+      <h2>What it costs</h2>
+      <p>Personal Hotspot uses your iPhone's cellular data and power: whatever the connected device does counts against your plan, some carriers charge separately for hotspot use, and the iPhone works harder while it's broadcasting. Apple also notes that a computer your iPhone is plugged into for charging may connect to the hotspot on its own. None of this is a malfunction — it's the cost of sharing a connection. Turning off Allow Others to Join when you're done keeps both in check.</p>
     </section>
 
     <section class="block">
-      <h2>The hotspot name is your phone name</h2>
-      <p>The network name other devices see is simply your iPhone's name. If you'd like it to read something clearer (say, "Jordan's iPhone" instead of a model number), change it in <strong>Settings &gt; General &gt; About &gt; Name</strong> — the hotspot name updates to match. A clearer name just makes the right network easier to pick out in a crowded list, which saves a confused tap or two.</p>
+      <h2>If it worked yesterday and not today</h2>
+      <p>Walk the same states instead of hunting for what changed: Is the option still there, and can it turn on? Can the other device see it? Does it connect — and does that connection actually reach the internet? Whichever state changed is the layer that changed with it: the cellular plan or data, a switch on the phone, or the device trying to connect. When nothing obvious has changed, Apple's own order stays short: confirm the hotspot is on and your plan supports it, restart both devices, make sure both are running the latest software — and only then consider heavier steps. Nothing here requires a reset by default.</p>
     </section>
-
-    <div class="decide">
-      <h3>A simple way to decide</h3>
-      <p>If the Personal Hotspot option is missing or dimmed → it's the carrier or cellular data, not a setting you can toggle. If the option is there but the other device can't find it → check that the phone isn't on Wi-Fi, that both devices are close with radios on, and try a different connection method (USB or Bluetooth). That split tells you whether to call your carrier or just adjust a switch.</p>
-    </div>
 
     <div class="note dont">
       <h3>You probably don't need to</h3>
-      <p>Don't confuse Personal Hotspot with "sharing" your home Wi-Fi — it's the opposite: it shares your <em>cellular</em> data, not your router. Don't expect it to work while the phone is comfortably on Wi-Fi; that's by design. And don't assume a missing hotspot means a broken phone; in most regions the carrier is the gatekeeper.</p>
+      <p>You probably don't need to:</p>
+      <ul>
+        <li>reset the whole iPhone because the hotspot failed once;</li>
+        <li>treat your normal Wi-Fi settings as hotspot settings — the hotspot shares cellular data, not your router;</li>
+        <li>start changing Bluetooth or network settings before you know which layer failed;</li>
+        <li>assume the iPhone's hardware is broken because a hotspot disappeared;</li>
+        <li>reconfigure the entire hotspot because one device connected but has no internet.</li>
+      </ul>
+      <p>Identify the layer first — the fix lives in the layer that failed.</p>
+    </div>
+
+    <div class="decide">
+      <h3>A simple way to decide</h3>
+      <ul>
+        <li><strong>Hotspot option is missing</strong> — check cellular service and carrier support.</li>
+        <li><strong>Hotspot is available but not visible</strong> — check Allow Others to Join, the connecting device's Wi-Fi, and the Instant Hotspot conditions.</li>
+        <li><strong>Hotspot is visible but won't connect</strong> — check the password, compatibility, or retry with another connection method.</li>
+        <li><strong>Hotspot connects but internet doesn't work</strong> — investigate the cellular service, the carrier, and data availability.</li>
+      </ul>
+      <p>You don't need to troubleshoot everything at once. You only need to identify which part failed first.</p>
     </div>
 
     <section class="block">
