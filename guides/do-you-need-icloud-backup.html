@@ -28,21 +28,39 @@
 
     <!-- 1. What you're probably trying to figure out -->
     <div class="wondering">
-      <strong>You're probably here because a small voice is asking:</strong> if this phone breaks, gets stolen, or slips into water, are all my photos and messages just… gone? You don't want a lecture about tech. You want to know if you're safe.
+      <strong>You're probably here because</strong> you're not really thinking about backups. You're thinking about the photos from a year you can't redo, the messages from someone you can't text again, and the ordinary record of a life that mostly lives on this one device. You want to know: if this phone breaks, gets stolen, or slips into water, is all of that just… gone? That's the real question — and it's a fair one to ask.
     </div>
 
     <!-- 2. Short answer -->
     <div class="answer">
-      <strong>Probably yes — but only if you care about not losing your photos, messages, and settings.</strong>
-      iCloud Backup runs automatically on Wi-Fi and protects almost everything on your iPhone. The main reason to skip it is if you already back up to a Mac or PC regularly, or you'd rather not pay for extra storage.
+      <strong>Yes — iCloud Backup is worth turning on. But it's one part of protecting your data, not the whole thing.</strong>
+      Apple protects your information in two different ways: backup and sync. iCloud Backup covers the information stored on your device that isn't already kept in iCloud by another service. Photos, files, and passwords each have their own service that keeps them up to date across your devices on its own. So "do I have iCloud?" isn't quite the question — the question is whether the things you care about are covered by the right mechanism.
     </div>
 
     <!-- 3. What actually matters -->
     <section class="block">
+      <h2>Backup vs sync: the part that matters</h2>
+      <p>Apple keeps your information safe in two different ways, and knowing which is which removes most of the worry:</p>
+      <ul>
+        <li><strong>Backup = "I may need to rebuild this phone."</strong> iCloud Backup takes a snapshot of what's stored on your device and not already in iCloud, so a lost, broken, or replaced phone can be set up again from it.</li>
+        <li><strong>Sync = "This already lives in more than one place."</strong> Some information isn't copied into a backup because its own service already keeps it up to date across your devices and your account.</li>
+      </ul>
+      <p>A few everyday examples, following Apple's own documentation:</p>
+      <ul>
+        <li><strong>Photos</strong> → with iCloud Photos turned on, your library is kept in iCloud by that service, so it isn't included in the daily backup.</li>
+        <li><strong>Messages</strong> → with Messages in iCloud turned on, your conversations are kept in iCloud by that service; otherwise they're included in the backup.</li>
+        <li><strong>Files</strong> → documents you keep in iCloud Drive live in iCloud Drive, not in the backup.</li>
+        <li><strong>Passwords</strong> → passwords you keep in iCloud Keychain are kept up to date across your devices by that service, rather than sitting on the phone waiting for a backup.</li>
+        <li><strong>Device-specific data</strong> → your settings, Home Screen and app organization, and app data are exactly what iCloud Backup exists for.</li>
+      </ul>
+      <p>The calming part: when something is left out of the backup, it's because it already has its own home — not because it's unprotected.</p>
+    </section>
+
+    <section class="block">
       <h2>What actually matters</h2>
-      <p>iCloud Backup quietly copies your iPhone to Apple's servers once a day — but only when three things are true at the same time: the phone is locked, plugged in (charging), and on Wi-Fi. You rarely have to think about it.</p>
-      <p>It covers almost everything on the device: your app data, message history, photos <em>if</em> they aren't already in iCloud Photos, Home Screen layout, settings, and passwords stored in iCloud Keychain. After a reset or a new phone, signing in restores it all in minutes.</p>
-      <p>It does <strong>not</strong> back up things already stored in the cloud (your mail, or photos when "Optimize Storage" is on), content you can re-download (apps, music, books), or data you keep in other companies' services. Those don't need a separate backup.</p>
+      <p>iCloud Backup quietly takes a snapshot of your iPhone once a day — but only when three things are true at the same time: the device is locked, connected to a power source, and on Wi-Fi. You rarely have to think about it.</p>
+      <p>What it covers, following Apple's own list, is the information stored on your device that isn't already kept in iCloud by another service: your device settings, Home Screen and app organization, app data, and your messages and photos when they aren't already syncing through iCloud. Purchases are recorded rather than copied — when you restore, your apps, music, and books download again from the store.</p>
+      <p>What it doesn't cover is the part that confuses people, and it's not a gap: information that already lives in iCloud through its own service, and content you can simply download again. Some information is backed up by iCloud Backup; other information is already synced with iCloud through its own service, so it doesn't need to be treated as part of the backup in the same way.</p>
     </section>
 
     <!-- 4. Your options -->
@@ -65,22 +83,28 @@
           <h3>Both</h3>
           <p>iCloud Backup for everyday safety, plus an occasional encrypted computer backup.</p>
           <p class="pros">+ Strongest safety net. Covers the gaps of each method.</p>
-          <p class="cons">– Slightly more to manage. Usually unnecessary for most people.</p>
+          <p class="cons">– Slightly more to manage than either method on its own.</p>
         </div>
       </div>
     </section>
 
     <!-- 5. What you probably don't need -->
     <div class="note dont">
-      <h3>You probably don't need</h3>
-      <p>A paid storage plan right away — turn on "Optimize iPhone Storage" for photos and offload unused apps, and the free 5&nbsp;GB often covers the rest. Also skip third-party "phone backup" apps and manually backing up by hand; they add friction without adding safety. Buying a new phone "just to be safe" isn't the answer either — a backup is.</p>
+      <h3>You probably don't need to worry about</h3>
+      <ul>
+        <li><strong>Getting the setup perfect.</strong> Turning iCloud Backup on and leaving it alone is a reasonable choice — you don't need to keep adjusting settings to be safe.</li>
+        <li><strong>Buying another backup product.</strong> A paid plan isn't required straight away: turning on "Optimize iPhone Storage" for photos and offloading unused apps often keeps the free 5&nbsp;GB sufficient. Third-party "phone backup" apps and backing up by hand add friction without adding safety.</li>
+        <li><strong>Feeling unprotected because iCloud Backup and iCloud Photos aren't the same thing.</strong> They're different tools for different kinds of information. Nothing is missing.</li>
+        <li><strong>Turning backup into a second complete copy of your digital life.</strong> You don't need to duplicate everything twice.</li>
+      </ul>
+      <p>What you actually need is to know where the things you care about live — not to copy everything twice.</p>
     </div>
 
     <!-- 6. What makes sense for different situations -->
     <section class="block">
       <h2>What makes sense for different situations</h2>
       <ul>
-        <li><strong>You're new to iPhone, or you want it to just work:</strong> turn on iCloud Backup and forget it. The free tier is usually enough.</li>
+        <li><strong>You're new to iPhone, or you want it to just work:</strong> turn on iCloud Backup and forget it. The free 5&nbsp;GB is often enough to start.</li>
         <li><strong>You have a Mac and prefer your data local:</strong> do an encrypted computer backup every few weeks. Turn on iCloud Backup too if the phone ever leaves the house without the Mac.</li>
         <li><strong>You keep a lot of photos or long message history:</strong> iCloud Backup plus "Optimize iPhone Storage" is the calm choice — your full library stays safe in iCloud Photos, and the backup stays small.</li>
       </ul>
@@ -89,14 +113,15 @@
     <!-- 7. A simple way to decide -->
     <div class="decide">
       <h3>A simple way to decide</h3>
-      <p>If the thought of losing this phone makes your stomach turn, turn on iCloud Backup today and let it run overnight. If you already plug into a Mac weekly and like local control, an encrypted computer backup is enough. You only need "both" if you want the strongest possible safety net — most people don't.</p>
+      <p>Ask the question you actually care about: <em>if I lost this phone tomorrow, where would the things I care about be?</em> Photos would be in iCloud Photos, if it's on. Messages would be in Messages in iCloud if you've turned that on, and in your iCloud Backup if you haven't. Your settings, app data, and Home Screen layout live in the backup. Your passwords live in iCloud Keychain. Once you can point to where each of those lives, you're not guessing any more — and whatever you can't point to is the only thing left to turn on.</p>
+      <p>If the thought of losing this phone makes your stomach turn, turn on iCloud Backup today and let it run overnight. If you already plug into a Mac or PC regularly and like local control, an encrypted computer backup covers the device side. You only need both if you want the strongest possible safety net.</p>
     </div>
 
     <!-- 8. Related questions -->
     <section class="block">
       <h2>Related questions</h2>
       <ul class="related">
-        <li>What's the difference between iCloud Backup and iCloud Photos?</li>
+        <li>What's the difference between iCloud Backup and iCloud Photos? <a href="../guides/is-icloud-photos-a-backup.html">Is iCloud Photos actually a backup?</a> answers that one directly.</li>
         <li>How do I move everything to a new iPhone without losing anything?</li>
         <li>My backup says "Not Enough Storage" — what's the cheapest fix?</li>
       </ul>
