@@ -43,18 +43,18 @@
         <li><strong>New content appears when you reopen the app.</strong> That doesn't prove the app ran continuously after you closed it. The content may have refreshed when you opened it, or through a different system mechanism.</li>
         <li><strong>Location still matters.</strong> Location access has its own permission and system behavior; &ldquo;closed&rdquo; does not mean location stops.</li>
         <li><strong>Storage or downloads changed.</strong> Identify the actual download or sync mechanism before blaming the App Switcher gesture.</li>
-        <li><strong>Battery or cellular usage changed.</strong> Use <strong>Settings &gt; Battery</strong> and <strong>Settings &gt; Cellular</strong> as evidence &mdash; don't guess which app caused it.</li>
+        <li><strong>Battery or cellular usage changed.</strong> Use <strong>Settings &gt; Battery</strong> and <strong>Settings &gt; Cellular</strong> as a check &mdash; don't guess which app caused it.</li>
       </ul>
     </section>
 
     <section class="block">
       <h2>What closing an app actually does</h2>
       <p>Removing an app from the App Switcher removes it from the recent-app view and ends its foreground session. It is not a universal &ldquo;disable everything&rdquo; command. Other Apple mechanisms &mdash; notifications, sync, location, media &mdash; are controlled separately, and closing one app does not reach them.</p>
-      <p>Closing is still right when an app is frozen, when you want to end its session now, or as a troubleshooting first step. The gesture matters; it just isn't a master switch.</p>
+      <p>Closing is still right when an app is frozen, when you want to end its session now, or as a troubleshooting first step. The gesture matters; it just doesn't end the app's other services.</p>
     </section>
 
     <section class="block">
-      <h2>Background App Refresh is one mechanism, not the explanation</h2>
+      <h2>Background App Refresh</h2>
       <p>Background App Refresh lets suspended apps check for new content under system-controlled conditions. You manage it in <strong>Settings &gt; General &gt; Background App Refresh</strong>, where you can turn it off or limit it to Wi-Fi or Wi-Fi &amp; Cellular Data. When you close an app from the App Switcher, it may not be able to run or check for new content until you open it again.</p>
       <p>But Background App Refresh is a single mechanism. It does not explain every notification, every media session, every sync, or every location event. Treat it as one suspect, not the verdict.</p>
     </section>
@@ -74,19 +74,6 @@
     <section class="block">
       <h2>Cloud sync, files, and photos</h2>
       <p>A photo, file, or cloud-linked change can happen because a sync system is moving data between your devices and a service &mdash; not because the app runs in the background. If iCloud Photos is the part you noticed, that's a sync library, not a background process: see <a href="../guides/is-icloud-photos-a-backup.html">Is iCloud Photos actually a backup?</a>. Closing the app does not cancel that sync.</p>
-    </section>
-
-    <section class="block">
-      <h2>When the behavior deserves a closer look</h2>
-      <p>Focus on evidence, not anxiety:</p>
-      <ul>
-        <li><strong>Battery usage changed unexpectedly</strong> &mdash; check <strong>Settings &gt; Battery</strong> to see which app is responsible.</li>
-        <li><strong>Cellular usage changed unexpectedly</strong> &mdash; check <strong>Settings &gt; Cellular</strong> for the app or service using it.</li>
-        <li><strong>A permission prompt appears unexpectedly</strong> &mdash; treat it as a permission or account event, not ordinary background activity.</li>
-        <li><strong>The app repeatedly downloads content you didn't expect</strong> &mdash; inspect its own settings and the relevant system download mechanism.</li>
-        <li><strong>The app behaves differently every time you reopen it</strong> &mdash; work out whether you're seeing a sync state, a setting, or actual app behavior.</li>
-        <li><strong>Nothing measurable happened; the app simply reappears in the App Switcher</strong> &mdash; that alone is not evidence of background activity.</li>
-      </ul>
     </section>
 
     <section class="block">
