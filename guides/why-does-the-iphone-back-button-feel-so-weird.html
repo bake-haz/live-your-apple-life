@@ -31,37 +31,32 @@
     </div>
 
     <div class="answer">
-      <strong>There isn't one universal "go back" control that looks identical on every iPhone screen.</strong> The correct action depends on what you're looking at. Returning to the previous screen, returning to the Home Screen, closing a sheet, canceling an action, and switching to a previous app are different moves — and the screen you're on decides which one is available. Start by naming where you actually want to go.
+      <strong>There isn't one universal "go back" control that looks identical on every iPhone screen.</strong> The correct action depends on what you're looking at. Four different moves come up often, and they are not the same thing:
+      <ul>
+        <li><strong>Previous screen</strong> — return to the screen you came from, inside the same app.</li>
+        <li><strong>Home</strong> — leave the app entirely and go to the Home Screen.</li>
+        <li><strong>Close</strong> — dismiss a sheet, popover, or form without stepping back through screens.</li>
+        <li><strong>Switch app</strong> — jump to the app you were just using.</li>
+      </ul>
+      <p>The screen you're on decides which of these is available, so the first step is to name where you actually want to go.</p>
     </div>
 
     <section class="block">
-      <h2>First, decide where you actually want to go</h2>
-      <p>Before reaching for any gesture, answer one question: what's the destination?</p>
-      <ul>
-        <li><strong>"I want the screen I was just on."</strong> → Use the current screen or app's Back control when one is provided.</li>
-        <li><strong>"I want to leave this app completely."</strong> → Use the Home gesture (or the Home button on models that have one).</li>
-        <li><strong>"I want to close this sheet, window, or form."</strong> → Look for Close, Done, Cancel, or an X — whichever dismissal control the interface shows.</li>
-        <li><strong>"I want to return to the app I was just using."</strong> → Use the App Switcher or the app-switching gesture where supported.</li>
-      </ul>
-      <p>This is more useful than memorizing a single magic gesture, because the answer changes with the screen.</p>
-    </section>
-
-    <section class="block">
-      <h2>The back control in current interfaces</h2>
-      <p>The exact control for "previous screen" can appear in more than one form, and not every app provides the same one:</p>
+      <h2>Finding the Back control</h2>
+      <p>The control for "previous screen" can appear in more than one form, and not every app provides the same one:</p>
       <ul>
         <li>a left-arrow at the top-left of the screen;</li>
         <li>a text label at the top-left, naming the level you came from;</li>
         <li>a visible Back button;</li>
         <li>an app-specific control the developer chose.</li>
       </ul>
-      <p>Safari is a clear example: its toolbar includes a back arrow you can tap to return to the previous page. Other apps may show only a label, only an arrow, or their own button. The useful habit is to look at the top of the current screen and at the bottom toolbar before assuming a gesture is required.</p>
+      <p>Safari is a clear example: its toolbar includes a back arrow you can tap to return to the previous page. Other apps may show only a label, only an arrow, or their own button. Look at the top of the screen and at the bottom toolbar first — the control you need is often right there, before any gesture.</p>
     </section>
 
     <section class="block">
       <h2>The left-edge swipe</h2>
-      <p>Some apps and interfaces support a swipe from the left edge to move back. When it works on the screen you're using, it's a quick way to return to the previous view. Treat it as context-dependent, not as a guaranteed universal back control.</p>
-      <p>A left-edge swipe can conflict with an app's own gestures, and a given screen may not honor it at all — there may be nowhere to go back to, or the app may use that edge for something else. When the left-edge swipe doesn't respond, fall back to the on-screen Back control the app provides.</p>
+      <p>Some apps and interfaces support a swipe from the left edge to move back. When it works on the screen you're using, it's a quick way to return to the previous view. It is not a guaranteed universal back control, and not every app or screen honors it.</p>
+      <p>A left-edge swipe can conflict with an app's own gestures, and a given screen may not support it at all — there may be nowhere to go back to, or the app may use that edge for something else. When the left-edge swipe doesn't respond, use the on-screen Back control the app provides instead.</p>
     </section>
 
     <section class="block">
@@ -71,8 +66,8 @@
     </section>
 
     <section class="block">
-      <h2>Close is not always back</h2>
-      <p>Several interface controls end the current task rather than return you to the exact previous screen:</p>
+      <h2>Closing is not always going back</h2>
+      <p>Several controls end the current task rather than return you to the exact previous screen:</p>
       <ul>
         <li>dismissing a sheet or popover;</li>
         <li>closing a full-screen view;</li>
@@ -85,61 +80,39 @@
 
     <section class="block">
       <h2>Settings is its own case</h2>
-      <p>Some system screens place a previous-level label or arrow at the top-left, and tapping that label steps up one level. Not every Settings screen presents navigation identically, and not every screen labels its back control the same way. When you're in Settings, check the top-left for a label or arrow that names where tapping will take you, rather than assuming a single fixed pattern across the whole app.</p>
+      <p>Some system screens place a previous-level label or arrow at the top-left, and tapping that label steps up one level. Not every Settings screen presents navigation identically, and not every screen labels its back control the same way. When you're in Settings, check the top-left for a label or arrow that names where tapping will take you, rather than expecting a single fixed pattern across the whole app.</p>
     </section>
 
     <section class="block">
-      <h2>Forms, checkouts, and unsaved work</h2>
-      <p>If you're typing or filling something in, don't blindly swipe or dismiss the view. Look for an explicit Back, Cancel, or Done control. A visible button may tell you what happens to the information you entered. The interface may ask whether to discard changes, or it may save a draft — read that confirmation before leaving. A back action does not automatically discard your data; what happens depends on the specific screen.</p>
+      <h2>When you're filling something in</h2>
+      <p>If you're typing or filling out a form, don't swipe or dismiss the view at random — you may lose what you entered. Look for an explicit Back, Cancel, or Done control. A visible button may tell you what happens to the information you typed. The interface may ask whether to discard changes, or it may save a draft — read that confirmation before leaving. What happens to your data depends on the specific screen, not on a single rule.</p>
     </section>
 
     <section class="block">
-      <h2>Full-screen experiences</h2>
-      <p>Games, video players, camera interfaces, Maps, and other custom app screens can use their own controls. When the usual navigation control isn't visible, look for the app's own buttons — a pause menu, an on-screen back arrow, or a Done control — before assuming the phone is stuck. These screens aren't ignoring a system rule; they're providing navigation in their own way.</p>
+      <h2>Games, video, and full-screen apps</h2>
+      <p>Games, video players, the camera, Maps, and other custom screens can use their own controls. When the usual navigation control isn't visible, look for the app's own buttons — a pause menu, an on-screen back arrow, or a Done control — before assuming the phone is stuck. These screens aren't ignoring a system rule; they provide navigation in their own way.</p>
     </section>
 
     <section class="block">
-      <h2>Switching back to a previous app</h2>
-      <p>Returning to the app you were just using is a separate action from going back a screen. On iPhone models with Face ID, you can swipe right or left along the bottom edge of the screen to move quickly between your open apps. Swiping up from the bottom edge and pausing opens the App Switcher, where you can browse open apps and tap the one you want. Neither of these is the left-edge swipe — use the bottom edge for app switching.</p>
-    </section>
-
-    <section class="block">
-      <h2>Before you blame yourself</h2>
-      <p>Getting stuck on a screen doesn't mean you're using the iPhone incorrectly. The more useful realization is that Back, Home, Close, and Cancel are not the same command — and treating them as one is what causes the confusion. Once you separate "previous screen" from "leave the app" from "dismiss this view," those stuck moments tend to resolve by picking the right one of those.</p>
+      <h2>Returning to a previous app</h2>
+      <p>Going back to the app you were just using is separate from going back a screen. On iPhone models with Face ID, you can swipe right or left along the bottom edge of the screen to move quickly between your open apps. Swiping up from the bottom edge and pausing opens the App Switcher, where you can browse open apps and tap the one you want. Neither of these is the left-edge swipe — use the bottom edge for app switching.</p>
     </section>
 
     <div class="note dont">
       <h3>You probably don't need to</h3>
       <ul>
-        <li>repeatedly swipe in random directions hoping something responds;</li>
+        <li>swipe in random directions hoping something responds;</li>
         <li>force-close the app just because the back control isn't obvious;</li>
-        <li>restart the iPhone to solve a navigation question;</li>
-        <li>change system settings to "fix" Back;</li>
-        <li>assume every screen must support the same gesture;</li>
         <li>assume going Home is the same as going back;</li>
-        <li>tap Cancel without reading what it does;</li>
-        <li>blame yourself because one app navigates differently from another.</li>
-      </ul>
-      <p>Find the control the current screen provides, then use it.</p>
-    </div>
-
-    <div class="decide">
-      <h3>A simple way to decide</h3>
-      <ul>
-        <li><strong>"I want the previous screen."</strong> → Look for the screen's Back control; try a supported back gesture only if the current interface offers it.</li>
-        <li><strong>"I want to leave the app."</strong> → Go Home (swipe up from the bottom edge on Face ID models).</li>
-        <li><strong>"I want to switch to the app I was using."</strong> → Use the App Switcher or the bottom-edge app-switching gesture where supported.</li>
-        <li><strong>"I want to dismiss this sheet or window."</strong> → Look for Close, Done, X, or the interface's own dismissal control.</li>
-        <li><strong>"I'm entering information."</strong> → Prefer an explicit Back, Cancel, or Done control, and read any confirmation before leaving.</li>
-        <li><strong>"Nothing on the screen makes sense."</strong> → Pause instead of swiping randomly. Identify what the current screen is asking you to do.</li>
+        <li>assume every screen must support the same gesture;</li>
+        <li>tap Cancel without reading what it does.</li>
       </ul>
     </div>
 
     <section class="block">
-      <h2>What to do next</h2>
-      <ul class="related">
-        <li>Still unsure which control a specific screen expects? <a href="../ask-us.html">Ask Us</a> — tell us the app and what you were trying to leave, and we'll help you reason through it.</li>
-      </ul>
+      <h2>When a screen has you stuck</h2>
+      <p>Getting stuck doesn't mean you're using the iPhone incorrectly. Back, Home, Close, and app-switch are different actions, and confusion usually comes from treating them as one. Once you separate "previous screen" from "leave the app" from "dismiss this view," most stuck moments clear up by picking the right one of those.</p>
+      <p>If you're still not sure what a specific screen expects, the app name and what you were trying to leave are the two clues that matter. Tell us via <a href="../ask-us.html">Ask Us</a> and we'll help you reason through it.</p>
     </section>
 
     <div class="askus">

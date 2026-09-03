@@ -35,35 +35,34 @@
     </div>
 
     <section class="block">
-      <h2>The question to ask for each thing</h2>
-      <p>Work through four steps for each item you care about instead of assuming one overall state:</p>
+      <h2>Three places a thing can be</h2>
+      <p>For the items you care about, the same question applies each time: did this particular item reach a place you can still open? Usually it's one of three:</p>
       <ul>
-        <li><strong>Where did it live?</strong> On the device, or in a service?</li>
-        <li><strong>Was it synced to an Apple service?</strong> Photos in iCloud Photos, messages in Messages in iCloud, contacts/calendars/notes in iCloud, files in iCloud Drive.</li>
-        <li><strong>If not, could it have been included in a usable backup?</strong> That depends on Apple's backup rules for that type of data.</li>
-        <li><strong>Can you see or recover it somewhere else now?</strong> Another device, iCloud.com, or the relevant service.</li>
+        <li><strong>In a synced service.</strong> A copy lives in iCloud and is openable without the lost iPhone.</li>
+        <li><strong>In a usable backup.</strong> A copy was captured by iCloud Backup before the phone went missing.</li>
+        <li><strong>Only on the lost iPhone.</strong> It never left the device, so there may be no other copy to point to.</li>
       </ul>
-      <p>This turns a vague worry into a checklist you can actually run, item by item.</p>
+      <p>The item you can still see is the only reliable proof it arrived somewhere. A setting being turned on describes a condition, not the item's actual location.</p>
     </section>
 
     <section class="block">
-      <h2>Layer 1 — Already synced to a cloud service</h2>
-      <p>If an item already syncs to an iCloud service, a copy exists in that service and is available without the lost iPhone. The strongest evidence is seeing the item on another device signed in to the same Apple Account, or in the service at iCloud.com. Turning a toggle on is not proof the item made it — seeing it elsewhere is. Examples that work this way: iCloud Photos, Messages in iCloud, Contacts, Calendars, Notes, and iCloud Drive.</p>
+      <h2>Already in a cloud service</h2>
+      <p>If an item syncs to an iCloud service, a copy exists in that service and is available without the lost iPhone. The clearest sign is seeing the item on another device signed in to the same Apple Account, or in the service at iCloud.com. Turning a toggle on is not proof the item made it — seeing it elsewhere is. This is how iCloud Photos, Messages in iCloud, Contacts, Calendars, Notes, and iCloud Drive work.</p>
     </section>
 
     <section class="block">
-      <h2>Layer 2 — Covered by iCloud Backup</h2>
-      <p>iCloud Backup is a periodic snapshot of device data that isn't already synced to iCloud. It runs when the iPhone is locked, connected to power, and on Wi-Fi, and it has a state and a timestamp (the last successful backup). So the relevant question is whether the data you care about existed by the time of your last usable backup and was included by Apple's backup rules — not whether every piece of device data was copied at every moment. Backup rules decide what counts, and not every app's data is included identically.</p>
+      <h2>Captured by iCloud Backup</h2>
+      <p>iCloud Backup is a periodic snapshot of device data that isn't already synced to iCloud. It runs when the iPhone is locked, connected to power, and on Wi-Fi, and it keeps a timestamp — the last successful backup. So the question is whether the data you care about existed by the time of your last usable backup and was included by Apple's backup rules, not whether every piece of device data was copied at every moment. Backup rules decide what counts, and not every app's data is included identically.</p>
     </section>
 
     <section class="block">
-      <h2>Layer 3 — Only on the missing iPhone</h2>
-      <p>If an item had not synced to the relevant service, was not included in a usable backup, and existed only on the lost iPhone, then there may be no recovery path from another device or service. This is the honest boundary. It does not mean the item is gone — only that you have no separate copy you can point to.</p>
+      <h2>Only on the missing iPhone</h2>
+      <p>If an item had not synced to the relevant service, was not included in a usable backup, and existed only on the lost iPhone, then there may be no recovery path from another device or service. This is the honest boundary. It doesn't mean the item is gone — only that you have no separate copy you can point to.</p>
     </section>
 
     <section class="block">
-      <h2>Sync and backup solve different problems</h2>
-      <p>Sync keeps a current copy available across your devices through a service. Backup creates a recoverable snapshot according to Apple's backup rules. A photo already in iCloud Photos does not depend on waiting for an iCloud Backup to copy that same photo. Conversely, device or app data that is not separately synchronized may depend on backup. One iCloud setting doesn't protect every category — iCloud Photos protects photos, Messages in iCloud protects messages, and backup is a separate layer.</p>
+      <h2>Sync and backup do different jobs</h2>
+      <p>Sync keeps a current copy available across your devices through a service. Backup creates a recoverable snapshot according to Apple's backup rules. A photo already in iCloud Photos does not depend on waiting for an iCloud Backup to copy that same photo. Conversely, device or app data that is not separately synchronized may depend on backup. One iCloud setting doesn't protect every category — iCloud Photos protects photos, Messages in iCloud protects messages, and backup is a separate mechanism.</p>
     </section>
 
     <section class="block">
@@ -79,20 +78,19 @@
     </section>
 
     <section class="block">
-      <h2>How do I know if it actually synced?</h2>
-      <p>Use evidence, not estimates.</p>
-      <p><strong>Strong evidence:</strong> the item is visible on another device; it appears in the relevant iCloud service; the service shows a current sync status; your backup information shows a recent successful backup.</p>
-      <p><strong>Weak evidence:</strong> "I had iCloud turned on," "the phone had Wi-Fi," "I could see the item on the phone," "it was probably uploading." Those describe conditions, not the item's actual location. Treat the item you can see as your proof; treat the rest as a question to check.</p>
+      <h2>How do I know it actually synced?</h2>
+      <p>You've confirmed a copy exists if you can see the item on another device or in the relevant iCloud service. You haven't confirmed it if you only remember seeing it on the lost phone — that proves the item was there, nothing more.</p>
+      <p>Conditions like "iCloud was on" or "the phone had Wi-Fi" tell you a sync was possible. They don't tell you a specific photo, message, or file actually reached the service. The thing you can still open is your proof; everything else is a question to check, not an answer.</p>
     </section>
 
     <section class="block">
-      <h2>Sync is not instant</h2>
-      <p>A service syncs when its conditions are met — the device awake, signed in, and the service enabled. The item itself, visible somewhere else, is the evidence that matters. Don't assume that because Wi-Fi was on, a specific item had already uploaded.</p>
+      <h2>Sync isn't one single moment</h2>
+      <p>Each service moves data on its own schedule. iCloud Photos uploads new photos when the iPhone has Wi-Fi and is signed in. Messages in iCloud stores messages as you send and receive them. iCloud Drive syncs files as they change. There is no single instant when "everything" on the phone is suddenly up to date, so don't assume that because Wi-Fi was on, a particular item had already arrived. Seeing that item somewhere else is the only reliable sign it did.</p>
     </section>
 
     <section class="block">
-      <h2>If the iPhone is actually lost: protect access first</h2>
-      <p>If the phone is gone rather than merely feared lost, protect your account and the device first — not individual photos:</p>
+      <h2>If the phone is actually lost</h2>
+      <p>If the phone is gone rather than merely feared lost, protect your account and the device before anything else — not individual photos:</p>
       <ul>
         <li><strong>Mark as Lost</strong> with Find My (iCloud.com/find or the Find My app). This locks the device with your passcode and pauses the cards in Apple Pay.</li>
         <li>Don't remove the device from Find My. That turns off <strong>Activation Lock</strong> and makes the device easier for someone else to use or resell.</li>
@@ -100,24 +98,13 @@
         <li>Change your Apple Account password if you notice changes you don't recognize or didn't make, or if Find My wasn't turned on for the device before it went missing — in that case Apple advises changing it to help protect your information. You don't change it by default just because the phone is missing.</li>
         <li><strong>Remote erase</strong> is a device-security decision. It removes the data on that device and can't be undone, but Activation Lock stays on, so the device remains tied to your account. It is not a way to find out whether photos had synced. Don't erase just to test sync.</li>
       </ul>
-      <p>These steps protect access to the lost device and your account. They do not tell you whether a specific photo, message, or file had already synced.</p>
+      <p>These steps protect access to the lost device and your account. They don't tell you whether a specific photo, message, or file had already synced.</p>
     </section>
 
     <section class="block">
       <h2>Before you blame the cloud — or yourself</h2>
-      <p>It's easy to replay the story: "I took that photo. Then the phone disappeared. So I lost the photo." Interrupt that chain. The event you remember is evidence that the item existed on the iPhone. It is not evidence that it had, or had not, reached another copy. That distinction is far more useful than assuming the cloud took care of it.</p>
+      <p>It's easy to replay the story: "I took that photo. Then the phone disappeared. So I lost the photo." Remembering you took the photo proves the photo existed on the iPhone. It doesn't prove it had, or hadn't, reached another copy. That gap — between "it was on the phone" and "it reached somewhere else" — is exactly where the worry lives, and it's worth naming plainly rather than assuming the worst.</p>
     </section>
-
-    <div class="decide">
-      <h3>What is genuinely uncertain?</h3>
-      <p>Rank the evidence instead of assigning a probability:</p>
-      <ul>
-        <li><strong>Strong recovery evidence:</strong> the item is visible on another device or in the service. You've confirmed a copy exists.</li>
-        <li><strong>Partial evidence:</strong> the relevant service was enabled and there is a recent usable backup state, but you can't directly verify the specific item. Check what you can actually access.</li>
-        <li><strong>Weak evidence:</strong> you only remember seeing it on the lost phone. That proves it existed there, nothing more.</li>
-        <li><strong>Possible no-copy scenario:</strong> the item was local only, with no relevant backup or synced copy. There may be no recovery path — but confirm the other layers before concluding.</li>
-      </ul>
-    </div>
 
     <div class="note dont">
       <h3>You probably don't need to</h3>
@@ -127,22 +114,21 @@
         <li>confuse iCloud Photos with iCloud Backup;</li>
         <li>treat seeing the item on the phone as proof of cloud sync;</li>
         <li>erase the phone to test whether something synced;</li>
-        <li>repeatedly change account settings without evidence;</li>
+        <li>change account settings repeatedly without a reason;</li>
         <li>rebuild the entire backup theory from memory.</li>
       </ul>
-      <p>The principle: check the surviving copy first.</p>
     </div>
 
-    <div class="decide">
-      <h3>A simple way to decide</h3>
+    <section class="block">
+      <h2>Not sure where a specific item is?</h2>
       <ul>
         <li><strong>"I can see the item somewhere else."</strong> → It reached a place you can still access.</li>
-        <li><strong>"I can't see it, but the service should have synced it."</strong> → Check the current service and sync state and your Apple Account.</li>
+        <li><strong>"I can't see it, but the service should have synced it."</strong> → Open that service and check the current state, then review your Apple Account.</li>
         <li><strong>"It wasn't synced, but I have a recent backup."</strong> → Check whether Apple's current backup rules include that type of data.</li>
         <li><strong>"It was only on the lost iPhone."</strong> → There may be no recovery path.</li>
-        <li><strong>"I don't know."</strong> → Don't convert uncertainty into either "safe" or "gone." Identify which copy would have protected that specific item.</li>
+        <li><strong>"I don't know."</strong> → Check the place that specific item would have been stored — its service or your last backup — instead of guessing whether it's safe or gone.</li>
       </ul>
-    </div>
+    </section>
 
     <section class="block">
       <h2>What to do next</h2>
@@ -155,7 +141,7 @@
     </section>
 
     <div class="askus">
-      <p><strong>Still not sure where a specific item landed?</strong> Tell us via <a href="../ask-us.html">Ask Us</a> — tell us the kind of item and whether you can see it elsewhere, and we'll help you reason through the layers.</p>
+      <p><strong>Still not sure where a specific item landed?</strong> Tell us via <a href="../ask-us.html">Ask Us</a> — tell us the kind of item and whether you can see it elsewhere, and we'll help you reason through it.</p>
     </div>
   </main>
 
