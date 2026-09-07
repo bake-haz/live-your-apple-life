@@ -16,31 +16,31 @@ SITEMAP URL COUNT: 46
 PART 1 — SITE STRUCTURE
 ==================================================
 
-BASE URL: https://bake-haz.github.io/live-your-apple-life/
+BASE URL: https://www.everydayphonehelp.com/
 
 --- index.html (meta) ---
 title: Live Your Apple Life
 description: Make your Apple life simpler, more personal, and more enjoyable. Calm, clear help for your iPhone, iPad, Mac, and Apple Watch.
-canonical: https://bake-haz.github.io/live-your-apple-life/
+canonical: https://www.everydayphonehelp.com/
 
 --- about.html (meta) ---
 title: About · Live Your Apple Life
-canonical: https://bake-haz.github.io/live-your-apple-life/about.html
+canonical: https://www.everydayphonehelp.com/about.html
 --- privacy.html (meta) ---
 title: Privacy · Live Your Apple Life
-canonical: https://bake-haz.github.io/live-your-apple-life/privacy.html
+canonical: https://www.everydayphonehelp.com/privacy.html
 --- terms.html (meta) ---
 title: Terms · Live Your Apple Life
-canonical: https://bake-haz.github.io/live-your-apple-life/terms.html
+canonical: https://www.everydayphonehelp.com/terms.html
 --- ask-us.html (meta) ---
 title: Ask Us · Live Your Apple Life
-canonical: https://bake-haz.github.io/live-your-apple-life/ask-us.html
+canonical: https://www.everydayphonehelp.com/ask-us.html
 
 --- robots.txt ---
 User-agent: *
 Allow: /
 
-Sitemap: https://bake-haz.github.io/live-your-apple-life/sitemap.xml
+Sitemap: https://www.everydayphonehelp.com/sitemap.xml
 
 
 --- assets/data/intents.js ---
@@ -602,10 +602,10 @@ PART 3 — COMPLETE GUIDES
 
 GUIDE 01
 Filename: guides/before-setting-up-new-iphone.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/before-setting-up-new-iphone.html
+URL: https://www.everydayphonehelp.com/guides/before-setting-up-new-iphone.html
 Title: What Should I Do Before Setting Up My New iPhone? · Live Your Apple Life
 Description: Before you power on the new iPhone and wipe the old one — confirm a few things first so your photos, messages, and accounts move over safely.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/before-setting-up-new-iphone.html
+Canonical: https://www.everydayphonehelp.com/guides/before-setting-up-new-iphone.html
 H1: What Should I Do Before Setting Up My New iPhone?
 
 H2:
@@ -739,10 +739,10 @@ END GUIDE
 
 GUIDE 02
 Filename: guides/do-i-need-a-case-and-screen-protector.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/do-i-need-a-case-and-screen-protector.html
+URL: https://www.everydayphonehelp.com/guides/do-i-need-a-case-and-screen-protector.html
 Title: Do I really need a case and a screen protector? · Live Your Apple Life
 Description: A new iPhone feels fragile, but you don't have to armor it. A case cushions drops; a screen protector guards scratches. Here's how to decide what's right for how you actually use your phone — without buying more than you need.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/do-i-need-a-case-and-screen-protector.html
+Canonical: https://www.everydayphonehelp.com/guides/do-i-need-a-case-and-screen-protector.html
 H1: Do I really need a case and a screen protector?
 
 H2:
@@ -849,10 +849,10 @@ END GUIDE
 
 GUIDE 03
 Filename: guides/do-you-need-icloud-backup.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/do-you-need-icloud-backup.html
+URL: https://www.everydayphonehelp.com/guides/do-you-need-icloud-backup.html
 Title: Do you need iCloud Backup? · Live Your Apple Life
 Description: If you're scared of losing your photos, here's a calm answer on whether iCloud Backup is worth it — and what you don't need.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/do-you-need-icloud-backup.html
+Canonical: https://www.everydayphonehelp.com/guides/do-you-need-icloud-backup.html
 H1: Do you need iCloud Backup?
 
 H2:
@@ -941,10 +941,10 @@ END GUIDE
 
 GUIDE 04
 Filename: guides/how-do-i-make-text-bigger-on-iphone.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/how-do-i-make-text-bigger-on-iphone.html
+URL: https://www.everydayphonehelp.com/guides/how-do-i-make-text-bigger-on-iphone.html
 Title: How do I make text bigger and easier to read on my iPhone? · Live Your Apple Life
 Description: If the text on your iPhone is too small to read comfortably, you can make it larger — across the whole phone, not app by app. Here's the setting that does it, and a few extras that help.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/how-do-i-make-text-bigger-on-iphone.html
+Canonical: https://www.everydayphonehelp.com/guides/how-do-i-make-text-bigger-on-iphone.html
 H1: How do I make text bigger and easier to read on my iPhone?
 
 H2:
@@ -1065,10 +1065,10 @@ END GUIDE
 
 GUIDE 05
 Filename: guides/how-do-i-put-my-photo-on-my-lock-screen.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/how-do-i-put-my-photo-on-my-lock-screen.html
+URL: https://www.everydayphonehelp.com/guides/how-do-i-put-my-photo-on-my-lock-screen.html
 Title: How do I put my own photo on my Lock Screen and Home Screen? · Live Your Apple Life
 Description: You can set any photo you've taken as your iPhone wallpaper — on the Lock Screen, the Home Screen, or both. Here's the simplest way to do it, on any iPhone, without changing anything you'll regret.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/how-do-i-put-my-photo-on-my-lock-screen.html
+Canonical: https://www.everydayphonehelp.com/guides/how-do-i-put-my-photo-on-my-lock-screen.html
 H1: How do I put my own photo on my Lock Screen and Home Screen?
 
 H2:
@@ -1179,10 +1179,10 @@ END GUIDE
 
 GUIDE 06
 Filename: guides/is-icloud-photos-a-backup.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/is-icloud-photos-a-backup.html
+URL: https://www.everydayphonehelp.com/guides/is-icloud-photos-a-backup.html
 Title: Is iCloud Photos Actually a Backup? · Live Your Apple Life
 Description: iCloud Photos keeps your photo library in sync across your devices — but that isn't the same as a backup you can restore on its own. Here's the plain difference, and what it means for you.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/is-icloud-photos-a-backup.html
+Canonical: https://www.everydayphonehelp.com/guides/is-icloud-photos-a-backup.html
 H1: Is iCloud Photos Actually a Backup?
 
 H2:
@@ -1310,10 +1310,10 @@ END GUIDE
 
 GUIDE 07
 Filename: guides/what-feels-weird-switching-from-android-to-iphone.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/what-feels-weird-switching-from-android-to-iphone.html
+URL: https://www.everydayphonehelp.com/guides/what-feels-weird-switching-from-android-to-iphone.html
 Title: What Feels Weird When You First Switch from Android to iPhone? · Live Your Apple Life
 Description: Just moved from Android to iPhone and a lot feels off? Here's what's normal, what's worth re-learning, and what you don't need to force into an Android shape.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/what-feels-weird-switching-from-android-to-iphone.html
+Canonical: https://www.everydayphonehelp.com/guides/what-feels-weird-switching-from-android-to-iphone.html
 H1: What Feels Weird When You First Switch from Android to iPhone?
 
 H2:
@@ -1418,10 +1418,10 @@ END GUIDE
 
 GUIDE 08
 Filename: guides/what-if-iphone-lost-before-everything-syncs.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/what-if-iphone-lost-before-everything-syncs.html
+URL: https://www.everydayphonehelp.com/guides/what-if-iphone-lost-before-everything-syncs.html
 Title: What If My iPhone Is Lost Before Everything Syncs? · Live Your Apple Life
 Description: If your iPhone is lost or you worry it might be, here's what's actually at risk — and why 'I saw it on my phone' isn't the same as 'it finished uploading.'
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/what-if-iphone-lost-before-everything-syncs.html
+Canonical: https://www.everydayphonehelp.com/guides/what-if-iphone-lost-before-everything-syncs.html
 H1: What If My iPhone Is Lost Before Everything Syncs?
 
 H2:
@@ -1524,10 +1524,10 @@ END GUIDE
 
 GUIDE 09
 Filename: guides/what-is-the-app-library.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/what-is-the-app-library.html
+URL: https://www.everydayphonehelp.com/guides/what-is-the-app-library.html
 Title: What is the App Library and do I need to use it? · Live Your Apple Life
 Description: The App Library is the last page of your iPhone, where every app is sorted into folders automatically. You don't have to use it — here's what it's for and how to keep your Home Screen the way you like it.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/what-is-the-app-library.html
+Canonical: https://www.everydayphonehelp.com/guides/what-is-the-app-library.html
 H1: What is the App Library and do I need to use it?
 
 H2:
@@ -1644,10 +1644,10 @@ END GUIDE
 
 GUIDE 10
 Filename: guides/what-should-i-change-first-new-iphone.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/what-should-i-change-first-new-iphone.html
+URL: https://www.everydayphonehelp.com/guides/what-should-i-change-first-new-iphone.html
 Title: What Should I Change First on a New iPhone? · Live Your Apple Life
 Description: Your new iPhone works, but doesn't feel like yours yet. Skip the 20-settings lists — here are the few changes worth making first, based on how you actually live.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/what-should-i-change-first-new-iphone.html
+Canonical: https://www.everydayphonehelp.com/guides/what-should-i-change-first-new-iphone.html
 H1: What Should I Change First on a New iPhone?
 
 H2:
@@ -1760,10 +1760,10 @@ END GUIDE
 
 GUIDE 11
 Filename: guides/when-can-i-safely-erase-old-iphone.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/when-can-i-safely-erase-old-iphone.html
+URL: https://www.everydayphonehelp.com/guides/when-can-i-safely-erase-old-iphone.html
 Title: When Can I Safely Erase My Old iPhone? · Live Your Apple Life
 Description: You've moved to a new iPhone but don't want to wipe the old one until you're sure. Here's a calm, short way to know when it's actually safe.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/when-can-i-safely-erase-old-iphone.html
+Canonical: https://www.everydayphonehelp.com/guides/when-can-i-safely-erase-old-iphone.html
 H1: When Can I Safely Erase My Old iPhone?
 
 H2:
@@ -1862,10 +1862,10 @@ END GUIDE
 
 GUIDE 12
 Filename: guides/why-cant-i-find-an-app-i-just-installed.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-cant-i-find-an-app-i-just-installed.html
+URL: https://www.everydayphonehelp.com/guides/why-cant-i-find-an-app-i-just-installed.html
 Title: Why Can't I Find an App I Just Installed on My iPhone? · Live Your Apple Life
 Description: On Android, new apps land on the Home Screen. On iPhone they can go to the App Library instead — here's where the app went and how to choose where new apps land.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-cant-i-find-an-app-i-just-installed.html
+Canonical: https://www.everydayphonehelp.com/guides/why-cant-i-find-an-app-i-just-installed.html
 H1: Why Can't I Find an App I Just Installed on My iPhone?
 
 H2:
@@ -1960,10 +1960,10 @@ END GUIDE
 
 GUIDE 13
 Filename: guides/why-cant-i-find-my-downloaded-files-on-iphone.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-cant-i-find-my-downloaded-files-on-iphone.html
+URL: https://www.everydayphonehelp.com/guides/why-cant-i-find-my-downloaded-files-on-iphone.html
 Title: Why Can't I Find My Downloaded Files on iPhone? · Live Your Apple Life
 Description: Downloaded a file on iPhone and it vanished? Here's where downloads actually go, why there's no single Android-style download folder, and how to tell where any file really is.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-cant-i-find-my-downloaded-files-on-iphone.html
+Canonical: https://www.everydayphonehelp.com/guides/why-cant-i-find-my-downloaded-files-on-iphone.html
 H1: Why Can't I Find My Downloaded Files on iPhone?
 
 H2:
@@ -2065,10 +2065,10 @@ END GUIDE
 
 GUIDE 14
 Filename: guides/why-cant-i-take-a-long-screenshot-on-my-iphone-like-i-did-on-android.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-cant-i-take-a-long-screenshot-on-my-iphone-like-i-did-on-android.html
+URL: https://www.everydayphonehelp.com/guides/why-cant-i-take-a-long-screenshot-on-my-iphone-like-i-did-on-android.html
 Title: Why Can't I Take a Long Screenshot on My iPhone Like I Did on Android? · Live Your Apple Life
 Description: iPhone can capture a full webpage as one long image or PDF, but most apps only grab one screen. Here's what works, what doesn't, and what to do instead.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-cant-i-take-a-long-screenshot-on-my-iphone-like-i-did-on-android.html
+Canonical: https://www.everydayphonehelp.com/guides/why-cant-i-take-a-long-screenshot-on-my-iphone-like-i-did-on-android.html
 H1: Why Can't I Take a Long Screenshot on My iPhone Like I Did on Android?
 
 H2:
@@ -2161,10 +2161,10 @@ END GUIDE
 
 GUIDE 15
 Filename: guides/why-did-my-message-turn-green-instead-of-blue.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-did-my-message-turn-green-instead-of-blue.html
+URL: https://www.everydayphonehelp.com/guides/why-did-my-message-turn-green-instead-of-blue.html
 Title: Why Did My Message Turn Green Instead of Blue? · Live Your Apple Life
 Description: A blue text is iMessage; a green text is a regular SMS/MMS. Neither means your phone is broken or that you've been blocked. Here's why a bubble changes color and what you can actually control.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-did-my-message-turn-green-instead-of-blue.html
+Canonical: https://www.everydayphonehelp.com/guides/why-did-my-message-turn-green-instead-of-blue.html
 H1: Why Did My Message Turn Green Instead of Blue?
 
 H2:
@@ -2261,10 +2261,10 @@ END GUIDE
 
 GUIDE 16
 Filename: guides/why-do-iphone-notifications-feel-so-different-from-android.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-do-iphone-notifications-feel-so-different-from-android.html
+URL: https://www.everydayphonehelp.com/guides/why-do-iphone-notifications-feel-so-different-from-android.html
 Title: Why Do iPhone Notifications Feel So Different from Android? · Live Your Apple Life
 Description: iPhone notifications aren't broken — they're grouped, gated by Focus, and set per app. Here's how they actually work and how to check what any app is allowed to do.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-do-iphone-notifications-feel-so-different-from-android.html
+Canonical: https://www.everydayphonehelp.com/guides/why-do-iphone-notifications-feel-so-different-from-android.html
 H1: Why Do iPhone Notifications Feel So Different from Android?
 
 H2:
@@ -2376,10 +2376,10 @@ END GUIDE
 
 GUIDE 17
 Filename: guides/why-does-airdrop-sometimes-not-work-when-it-should.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-does-airdrop-sometimes-not-work-when-it-should.html
+URL: https://www.everydayphonehelp.com/guides/why-does-airdrop-sometimes-not-work-when-it-should.html
 Title: Why Does AirDrop Sometimes Not Work When It Should? · Live Your Apple Life
 Description: AirDrop needs Wi-Fi, Bluetooth, and a discoverable receiver — not just two iPhones near each other. Here's the simple order to check when a transfer won't start.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-does-airdrop-sometimes-not-work-when-it-should.html
+Canonical: https://www.everydayphonehelp.com/guides/why-does-airdrop-sometimes-not-work-when-it-should.html
 H1: Why Does AirDrop Sometimes Not Work When It Should?
 
 H2:
@@ -2486,10 +2486,10 @@ END GUIDE
 
 GUIDE 18
 Filename: guides/why-does-an-app-still-seem-to-work-after-i-closed-it.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-does-an-app-still-seem-to-work-after-i-closed-it.html
+URL: https://www.everydayphonehelp.com/guides/why-does-an-app-still-seem-to-work-after-i-closed-it.html
 Title: Why Does an App Still Seem to Work After I Closed It? · Live Your Apple Life
 Description: You swiped the app away, but it still sends notifications or plays audio. That's not a stuck phone — it's how iOS keeps useful things alive. Here's what's really happening and what you can control.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-does-an-app-still-seem-to-work-after-i-closed-it.html
+Canonical: https://www.everydayphonehelp.com/guides/why-does-an-app-still-seem-to-work-after-i-closed-it.html
 H1: Why Does an App Still Seem to Work After I Closed It?
 
 H2:
@@ -2608,10 +2608,10 @@ END GUIDE
 
 GUIDE 19
 Filename: guides/why-does-icloud-say-its-full-when-my-iphone-has-space.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-does-icloud-say-its-full-when-my-iphone-has-space.html
+URL: https://www.everydayphonehelp.com/guides/why-does-icloud-say-its-full-when-my-iphone-has-space.html
 Title: Why Does iCloud Say It's Full When My iPhone Has Space? · Live Your Apple Life
 Description: iCloud storage and iPhone storage are two separate spaces. The free iCloud allowance is small, so it fills up before your phone does. Here's what counts against it and how to free it without losing what matters.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-does-icloud-say-its-full-when-my-iphone-has-space.html
+Canonical: https://www.everydayphonehelp.com/guides/why-does-icloud-say-its-full-when-my-iphone-has-space.html
 H1: Why Does iCloud Say It's Full When My iPhone Has Space?
 
 H2:
@@ -2713,10 +2713,10 @@ END GUIDE
 
 GUIDE 20
 Filename: guides/why-does-my-iphone-battery-drop-so-fast.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-battery-drop-so-fast.html
+URL: https://www.everydayphonehelp.com/guides/why-does-my-iphone-battery-drop-so-fast.html
 Title: Why Does My iPhone Battery Drop So Fast After I Get It? · Live Your Apple Life
 Description: A new iPhone can drain fast for the first few days — setup, photo syncing, and app downloads run in the background. Here's what's normal and what's worth checking.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-battery-drop-so-fast.html
+Canonical: https://www.everydayphonehelp.com/guides/why-does-my-iphone-battery-drop-so-fast.html
 H1: Why Does My iPhone Battery Drop So Fast After I Get It?
 
 H2:
@@ -2828,10 +2828,10 @@ END GUIDE
 
 GUIDE 21
 Filename: guides/why-does-my-iphone-feel-so-different-from-android.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-feel-so-different-from-android.html
+URL: https://www.everydayphonehelp.com/guides/why-does-my-iphone-feel-so-different-from-android.html
 Title: Why Does My iPhone Feel So Different from Android? · Live Your Apple Life
 Description: Just switched from Android and nothing works the way you expect? A calm map of what changed — and which differences are worth adapting to versus which you can simply adjust.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-feel-so-different-from-android.html
+Canonical: https://www.everydayphonehelp.com/guides/why-does-my-iphone-feel-so-different-from-android.html
 H1: Why Does My iPhone Feel So Different from Android?
 
 H2:
@@ -2946,10 +2946,10 @@ END GUIDE
 
 GUIDE 22
 Filename: guides/why-does-my-iphone-get-warm-when-im-not-using-it.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-get-warm-when-im-not-using-it.html
+URL: https://www.everydayphonehelp.com/guides/why-does-my-iphone-get-warm-when-im-not-using-it.html
 Title: Why Does My iPhone Get Warm When I'm Not Using It? · Live Your Apple Life
 Description: An iPhone that feels warm in your pocket or on the table often isn't broken. Apple's own support note lists the normal causes — and the few signs that mean you should stop and let it cool.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-get-warm-when-im-not-using-it.html
+Canonical: https://www.everydayphonehelp.com/guides/why-does-my-iphone-get-warm-when-im-not-using-it.html
 H1: Why Does My iPhone Get Warm When I'm Not Using It?
 
 H2:
@@ -3076,10 +3076,10 @@ END GUIDE
 
 GUIDE 23
 Filename: guides/why-does-my-iphone-keep-asking-me-to-update.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-keep-asking-me-to-update.html
+URL: https://www.everydayphonehelp.com/guides/why-does-my-iphone-keep-asking-me-to-update.html
 Title: Why Does My iPhone Keep Asking Me to Update? · Live Your Apple Life
 Description: iOS, app, and account update prompts are different things — and most aren't emergencies. Learn what to do soon, what can wait, and how Automatic Updates works.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-keep-asking-me-to-update.html
+Canonical: https://www.everydayphonehelp.com/guides/why-does-my-iphone-keep-asking-me-to-update.html
 H1: Why Does My iPhone Keep Asking Me to Update?
 
 H2:
@@ -3194,10 +3194,10 @@ END GUIDE
 
 GUIDE 24
 Filename: guides/why-does-my-iphone-say-no-service-or-sos.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-say-no-service-or-sos.html
+URL: https://www.everydayphonehelp.com/guides/why-does-my-iphone-say-no-service-or-sos.html
 Title: Why Does My iPhone Say No Service or SOS? · Live Your Apple Life
 Description: No Service or an SOS indicator means your iPhone can't reach a cellular network — usually a coverage or carrier issue, not a broken phone. Here's what each label means and the calm order to check.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-say-no-service-or-sos.html
+Canonical: https://www.everydayphonehelp.com/guides/why-does-my-iphone-say-no-service-or-sos.html
 H1: Why Does My iPhone Say No Service or SOS?
 
 H2:
@@ -3292,10 +3292,10 @@ END GUIDE
 
 GUIDE 25
 Filename: guides/why-does-my-iphone-seem-to-do-things-on-its-own.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-seem-to-do-things-on-its-own.html
+URL: https://www.everydayphonehelp.com/guides/why-does-my-iphone-seem-to-do-things-on-its-own.html
 Title: Why Does My iPhone Seem to Do Things on Its Own? · Live Your Apple Life
 Description: Your iPhone downloads, updates, and syncs without asking because several features are automatic by default. That's normal — but here's what's happening, what you can turn off, and when to look closer.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-seem-to-do-things-on-its-own.html
+Canonical: https://www.everydayphonehelp.com/guides/why-does-my-iphone-seem-to-do-things-on-its-own.html
 H1: Why Does My iPhone Seem to Do Things on Its Own?
 
 H2:
@@ -3402,10 +3402,10 @@ END GUIDE
 
 GUIDE 26
 Filename: guides/why-does-my-iphone-sometimes-not-do-what-i-expect-when-i-share.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-sometimes-not-do-what-i-expect-when-i-share.html
+URL: https://www.everydayphonehelp.com/guides/why-does-my-iphone-sometimes-not-do-what-i-expect-when-i-share.html
 Title: Why Does My iPhone Sometimes Not Do What I Expect When I Share Something? · Live Your Apple Life
 Description: The iPhone Share Sheet changes depending on what you're sharing and which apps you have. Here's why the options shift, and how to find the one you want.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-sometimes-not-do-what-i-expect-when-i-share.html
+Canonical: https://www.everydayphonehelp.com/guides/why-does-my-iphone-sometimes-not-do-what-i-expect-when-i-share.html
 H1: Why Does My iPhone Sometimes Not Do What I Expect When I Share Something?
 
 H2:
@@ -3510,10 +3510,10 @@ END GUIDE
 
 GUIDE 27
 Filename: guides/why-does-my-iphone-suddenly-ask-to-allow-something.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-suddenly-ask-to-allow-something.html
+URL: https://www.everydayphonehelp.com/guides/why-does-my-iphone-suddenly-ask-to-allow-something.html
 Title: Why Does My iPhone Suddenly Ask to Allow Something? · Live Your Apple Life
 Description: A pop-up asking to allow camera, microphone, location, or photos isn't a red flag — it's iOS asking for your permission before an app touches something private. Here's what the prompts mean and how to stay in control.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-suddenly-ask-to-allow-something.html
+Canonical: https://www.everydayphonehelp.com/guides/why-does-my-iphone-suddenly-ask-to-allow-something.html
 H1: Why Does My iPhone Suddenly Ask to Allow Something?
 
 H2:
@@ -3639,10 +3639,10 @@ END GUIDE
 
 GUIDE 28
 Filename: guides/why-does-the-iphone-back-button-feel-so-weird.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-does-the-iphone-back-button-feel-so-weird.html
+URL: https://www.everydayphonehelp.com/guides/why-does-the-iphone-back-button-feel-so-weird.html
 Title: Why Does the iPhone Back Button Feel So Weird? · Live Your Apple Life
 Description: On Android, back is everywhere. On iPhone it isn't. Here's why you keep getting lost, the three ways iPhone lets you go back, and the habit that fixes most of it.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-does-the-iphone-back-button-feel-so-weird.html
+Canonical: https://www.everydayphonehelp.com/guides/why-does-the-iphone-back-button-feel-so-weird.html
 H1: Why Does the iPhone Back Button Feel So Weird?
 
 H2:
@@ -3739,10 +3739,10 @@ END GUIDE
 
 GUIDE 29
 Filename: guides/why-is-my-iphone-asking-for-my-password-again.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-is-my-iphone-asking-for-my-password-again.html
+URL: https://www.everydayphonehelp.com/guides/why-is-my-iphone-asking-for-my-password-again.html
 Title: Why Is My iPhone Asking for My Password Again? · Live Your Apple Life
 Description: Re-entering your Apple Account password or passcode is often normal. Learn the difference between device unlock, your account password, and Face ID — and how to tell a routine prompt from a real warning.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-is-my-iphone-asking-for-my-password-again.html
+Canonical: https://www.everydayphonehelp.com/guides/why-is-my-iphone-asking-for-my-password-again.html
 H1: Why Is My iPhone Asking for My Password Again?
 
 H2:
@@ -3852,10 +3852,10 @@ END GUIDE
 
 GUIDE 30
 Filename: guides/why-is-my-iphone-storage-full.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-is-my-iphone-storage-full.html
+URL: https://www.everydayphonehelp.com/guides/why-is-my-iphone-storage-full.html
 Title: Why Is My iPhone Storage Full When I Don't Have That Many Apps? · Live Your Apple Life
 Description: Storage full but only a few apps? iPhone space is eaten by photos, messages, videos, system files, and app data — not app count. Here's how to find the real big users.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-is-my-iphone-storage-full.html
+Canonical: https://www.everydayphonehelp.com/guides/why-is-my-iphone-storage-full.html
 H1: Why Is My iPhone Storage Full When I Don't Have That Many Apps?
 
 H2:
@@ -3980,10 +3980,10 @@ END GUIDE
 
 GUIDE 31
 Filename: guides/why-isnt-my-personal-hotspot-working.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-isnt-my-personal-hotspot-working.html
+URL: https://www.everydayphonehelp.com/guides/why-isnt-my-personal-hotspot-working.html
 Title: Why Isn't My Personal Hotspot Working? · Live Your Apple Life
 Description: Personal Hotspot turns your iPhone's cellular data into a Wi-Fi network for other devices. If it won't turn on or isn't found, it's usually the carrier, cellular data, or one setting. Here's what to check.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-isnt-my-personal-hotspot-working.html
+Canonical: https://www.everydayphonehelp.com/guides/why-isnt-my-personal-hotspot-working.html
 H1: Why Isn't My Personal Hotspot Working?
 
 H2:
@@ -4070,10 +4070,10 @@ END GUIDE
 
 GUIDE 32
 Filename: guides/why-wont-my-bluetooth-device-connect-to-my-iphone.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-wont-my-bluetooth-device-connect-to-my-iphone.html
+URL: https://www.everydayphonehelp.com/guides/why-wont-my-bluetooth-device-connect-to-my-iphone.html
 Title: Why Won't My Bluetooth Device Connect to My iPhone? · Live Your Apple Life
 Description: Headphones, a car, or a speaker won't pair with your iPhone? In almost every case the accessory isn't in pairing mode, or an old link is stuck. Here's the calm fix, in order.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-wont-my-bluetooth-device-connect-to-my-iphone.html
+Canonical: https://www.everydayphonehelp.com/guides/why-wont-my-bluetooth-device-connect-to-my-iphone.html
 H1: Why Won't My Bluetooth Device Connect to My iPhone?
 
 H2:
@@ -4165,10 +4165,10 @@ END GUIDE
 
 GUIDE 33
 Filename: guides/why-wont-my-iphone-connect-to-wifi.html
-URL: https://bake-haz.github.io/live-your-apple-life/guides/why-wont-my-iphone-connect-to-wifi.html
+URL: https://www.everydayphonehelp.com/guides/why-wont-my-iphone-connect-to-wifi.html
 Title: Why Won't My iPhone Connect to Wi-Fi? · Live Your Apple Life
 Description: Can't get your iPhone on Wi-Fi, or it keeps dropping? Most cases are the network, a toggle, or one setting — not a broken phone. Here's the calm, ordered way to fix it.
-Canonical: https://bake-haz.github.io/live-your-apple-life/guides/why-wont-my-iphone-connect-to-wifi.html
+Canonical: https://www.everydayphonehelp.com/guides/why-wont-my-iphone-connect-to-wifi.html
 H1: Why Won't My iPhone Connect to Wi-Fi?
 
 H2:
@@ -4270,7 +4270,7 @@ PART 4 — COMPLETE INTENTS
 
 INTENT: apple-ecosystem
 Name: I want my Apple devices to work better together
-URL: https://bake-haz.github.io/live-your-apple-life/intents/apple-ecosystem.html
+URL: https://www.everydayphonehelp.com/intents/apple-ecosystem.html
 Description: When iPhone, Mac, iPad, and Watch actually help — not just because they can.
 
 Guide list:
@@ -4290,7 +4290,7 @@ END INTENT
 
 INTENT: make-it-mine
 Name: I want to make my iPhone more personal
-URL: https://bake-haz.github.io/live-your-apple-life/intents/make-it-mine.html
+URL: https://www.everydayphonehelp.com/intents/make-it-mine.html
 Description: Small touches that make your iPhone feel like yours, not a default phone.
 
 Guide list:
@@ -4311,7 +4311,7 @@ END INTENT
 
 INTENT: make-my-iphone-look-better
 Name: I want my iPhone to look better
-URL: https://bake-haz.github.io/live-your-apple-life/intents/make-my-iphone-look-better.html
+URL: https://www.everydayphonehelp.com/intents/make-my-iphone-look-better.html
 Description: A clean Home Screen, a wallpaper you love, and a device that feels calm to look at — without buying anything.
 
 Guide list:
@@ -4332,7 +4332,7 @@ END INTENT
 
 INTENT: make-my-iphone-work-better
 Name: I want my iPhone to work better for me
-URL: https://bake-haz.github.io/live-your-apple-life/intents/make-my-iphone-work-better.html
+URL: https://www.everydayphonehelp.com/intents/make-my-iphone-work-better.html
 Description: Less clutter, fewer distractions, and a phone that fits your day.
 
 Guide list:
@@ -4372,7 +4372,7 @@ END INTENT
 
 INTENT: new-iphone
 Name: I just got a new iPhone
-URL: https://bake-haz.github.io/live-your-apple-life/intents/new-iphone.html
+URL: https://www.everydayphonehelp.com/intents/new-iphone.html
 Description: The few things that matter on day one — and what can happily wait.
 
 Guide list:
@@ -4396,7 +4396,7 @@ END INTENT
 
 INTENT: old-iphone
 Name: I want to figure out what to do with my old iPhone
-URL: https://bake-haz.github.io/live-your-apple-life/intents/old-iphone.html
+URL: https://www.everydayphonehelp.com/intents/old-iphone.html
 Description: Sell it, trade it in, keep it, or give it away — decide with confidence, then erase it safely.
 
 Guide list:
@@ -4417,7 +4417,7 @@ END INTENT
 
 INTENT: protect-my-data
 Name: I'm worried about losing my data
-URL: https://bake-haz.github.io/live-your-apple-life/intents/protect-my-data.html
+URL: https://www.everydayphonehelp.com/intents/protect-my-data.html
 Description: Photos, messages, accounts — keep them safe so you can stop worrying.
 
 Guide list:
@@ -4443,7 +4443,7 @@ END INTENT
 
 INTENT: protect-my-iphone
 Name: I want to protect my new iPhone
-URL: https://bake-haz.github.io/live-your-apple-life/intents/protect-my-iphone.html
+URL: https://www.everydayphonehelp.com/intents/protect-my-iphone.html
 Description: You just spent real money. Here's how to keep your new iPhone safe — without overbuying.
 
 Guide list:
@@ -4468,52 +4468,52 @@ PART 5 — SITEMAP
 
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/</loc><lastmod>2026-09-01</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/about.html</loc><lastmod>2026-09-01</lastmod><priority>0.3</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/privacy.html</loc><lastmod>2026-09-01</lastmod><priority>0.3</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/terms.html</loc><lastmod>2026-09-01</lastmod><priority>0.3</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/ask-us.html</loc><lastmod>2026-09-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/intents/make-my-iphone-look-better.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/intents/protect-my-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/intents/make-it-mine.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/intents/new-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/intents/protect-my-data.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/intents/old-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/intents/make-my-iphone-work-better.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/intents/apple-ecosystem.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/do-you-need-icloud-backup.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/before-setting-up-new-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/is-icloud-photos-a-backup.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/what-feels-weird-switching-from-android-to-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/when-can-i-safely-erase-old-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/what-if-iphone-lost-before-everything-syncs.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/what-should-i-change-first-new-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-feel-so-different-from-android.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-cant-i-find-my-downloaded-files-on-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-does-the-iphone-back-button-feel-so-weird.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-do-iphone-notifications-feel-so-different-from-android.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-is-my-iphone-storage-full.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-battery-drop-so-fast.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-is-my-iphone-asking-for-my-password-again.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-keep-asking-me-to-update.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-cant-i-find-an-app-i-just-installed.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-sometimes-not-do-what-i-expect-when-i-share.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-cant-i-take-a-long-screenshot-on-my-iphone-like-i-did-on-android.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-does-airdrop-sometimes-not-work-when-it-should.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-wont-my-iphone-connect-to-wifi.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-wont-my-bluetooth-device-connect-to-my-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-isnt-my-personal-hotspot-working.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-say-no-service-or-sos.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-get-warm-when-im-not-using-it.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-does-an-app-still-seem-to-work-after-i-closed-it.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-seem-to-do-things-on-its-own.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-does-my-iphone-suddenly-ask-to-allow-something.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/how-do-i-put-my-photo-on-my-lock-screen.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/how-do-i-make-text-bigger-on-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/what-is-the-app-library.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/do-i-need-a-case-and-screen-protector.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-did-my-message-turn-green-instead-of-blue.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://bake-haz.github.io/live-your-apple-life/guides/why-does-icloud-say-its-full-when-my-iphone-has-space.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/</loc><lastmod>2026-09-01</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/about.html</loc><lastmod>2026-09-01</lastmod><priority>0.3</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/privacy.html</loc><lastmod>2026-09-01</lastmod><priority>0.3</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/terms.html</loc><lastmod>2026-09-01</lastmod><priority>0.3</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/ask-us.html</loc><lastmod>2026-09-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/intents/make-my-iphone-look-better.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/intents/protect-my-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/intents/make-it-mine.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/intents/new-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/intents/protect-my-data.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/intents/old-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/intents/make-my-iphone-work-better.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/intents/apple-ecosystem.html</loc><lastmod>2026-09-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/do-you-need-icloud-backup.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/before-setting-up-new-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/is-icloud-photos-a-backup.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/what-feels-weird-switching-from-android-to-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/when-can-i-safely-erase-old-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/what-if-iphone-lost-before-everything-syncs.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/what-should-i-change-first-new-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-does-my-iphone-feel-so-different-from-android.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-cant-i-find-my-downloaded-files-on-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-does-the-iphone-back-button-feel-so-weird.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-do-iphone-notifications-feel-so-different-from-android.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-is-my-iphone-storage-full.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-does-my-iphone-battery-drop-so-fast.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-is-my-iphone-asking-for-my-password-again.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-does-my-iphone-keep-asking-me-to-update.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-cant-i-find-an-app-i-just-installed.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-does-my-iphone-sometimes-not-do-what-i-expect-when-i-share.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-cant-i-take-a-long-screenshot-on-my-iphone-like-i-did-on-android.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-does-airdrop-sometimes-not-work-when-it-should.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-wont-my-iphone-connect-to-wifi.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-wont-my-bluetooth-device-connect-to-my-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-isnt-my-personal-hotspot-working.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-does-my-iphone-say-no-service-or-sos.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-does-my-iphone-get-warm-when-im-not-using-it.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-does-an-app-still-seem-to-work-after-i-closed-it.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-does-my-iphone-seem-to-do-things-on-its-own.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-does-my-iphone-suddenly-ask-to-allow-something.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/how-do-i-put-my-photo-on-my-lock-screen.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/how-do-i-make-text-bigger-on-iphone.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/what-is-the-app-library.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/do-i-need-a-case-and-screen-protector.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-did-my-message-turn-green-instead-of-blue.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.everydayphonehelp.com/guides/why-does-icloud-say-its-full-when-my-iphone-has-space.html</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
 </urlset>
 
 
