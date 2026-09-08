@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Live Your Apple Life</title>
+  <rect width="64" height="64" rx="15" fill="#0a84ff"/>
+  <rect x="18" y="9" width="28" height="46" rx="7" fill="none" stroke="#fff" stroke-width="4"/>
+  <circle cx="32" cy="48" r="2.5" fill="#fff"/>
+  <path d="M25 23h14M25 31h10" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M39 18c3-3 6-2 7-1-1 2-2 3-4 4" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
